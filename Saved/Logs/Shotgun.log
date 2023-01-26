@@ -1702,3 +1702,218 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2023.01.26-06.12.54:187][607]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2023.01.26-06.12.54:195][607]LogUObjectHash: Compacting FUObjectHashTables data took   2.81ms
 [2023.01.26-06.12.54:510][608]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2023.01.26-06.13.06:283][825]LogShaderCompilers: Display: ================================================
+[2023.01.26-06.13.06:283][825]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.01.26-06.13.06:284][825]LogShaderCompilers: Display: Total job queries 5880, among them cache hits 57 (0.97%)
+[2023.01.26-06.13.06:284][825]LogShaderCompilers: Display: Tracking 793 distinct input hashes that result in 460 distinct outputs (58.01%)
+[2023.01.26-06.13.06:284][825]LogShaderCompilers: Display: RAM used: 5.18 MB (0.01 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.63%
+[2023.01.26-06.13.06:284][825]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.01.26-06.13.06:284][825]LogShaderCompilers: Display: Shaders Compiled: 687
+[2023.01.26-06.13.06:284][825]LogShaderCompilers: Display: Jobs assigned 691, completed 687 (99.42%)
+[2023.01.26-06.13.06:285][825]LogShaderCompilers: Display: Average time worker was idle: 0.00 s
+[2023.01.26-06.13.06:285][825]LogShaderCompilers: Display: Time job spent in pending queue: average 317.94 s, longest 675.19 s
+[2023.01.26-06.13.06:285][825]LogShaderCompilers: Display: Job execution time: average 3.92 s, max 25.20 s
+[2023.01.26-06.13.06:285][825]LogShaderCompilers: Display: Job life time (pending + execution): average 319.80 s, max 675.19
+[2023.01.26-06.13.06:285][825]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 676.96 s
+[2023.01.26-06.13.06:285][825]LogShaderCompilers: Display: Jobs were issued in 691 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.01.26-06.13.06:285][825]LogShaderCompilers: Display: Average processing rate: 1.01 jobs/sec
+[2023.01.26-06.13.06:286][825]LogShaderCompilers: Display: Total thread time: 2453.84 s
+[2023.01.26-06.13.06:286][825]LogShaderCompilers: Display: Total thread preprocess time: 150.88 s
+[2023.01.26-06.13.06:286][825]LogShaderCompilers: Display: Percentage time preprocessing: 6.15%
+[2023.01.26-06.13.06:286][825]LogShaderCompilers: Display: Effective parallelization: 3.62 (times faster than compiling all shaders on one thread). Compare with number of workers: 4
+[2023.01.26-06.13.06:286][825]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.01.26-06.13.06:286][825]LogShaderCompilers: Display:                         TBasePassPSTLightMapPolicyLQSkylight (compiled    6 times, average 6.76 sec, max 16.62 sec, min 2.20 sec)
+[2023.01.26-06.13.06:287][825]LogShaderCompilers: Display:                                 TBasePassPSTLightMapPolicyHQ (compiled    5 times, average 6.74 sec, max 16.65 sec, min 2.11 sec)
+[2023.01.26-06.13.06:287][825]LogShaderCompilers: Display:          TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQ (compiled    6 times, average 6.43 sec, max 15.35 sec, min 2.18 sec)
+[2023.01.26-06.13.06:287][825]LogShaderCompilers: Display:  TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQSkylight (compiled    5 times, average 5.71 sec, max 12.17 sec, min 2.17 sec)
+[2023.01.26-06.13.06:287][825]LogShaderCompilers: Display:                                 TBasePassVSTLightMapPolicyHQ (compiled    5 times, average 5.47 sec, max 10.99 sec, min 1.92 sec)
+[2023.01.26-06.13.06:287][825]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.01.26-06.13.06:287][825]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 8.72% of total time (compiled   50 times, average 4.28 sec, max 22.58 sec, min 1.70 sec)
+[2023.01.26-06.13.06:287][825]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 8.18% of total time (compiled   50 times, average 4.02 sec, max 13.07 sec, min 2.01 sec)
+[2023.01.26-06.13.06:288][825]LogShaderCompilers: Display:                                             FDebugViewModeVS - 7.89% of total time (compiled   53 times, average 3.65 sec, max 13.26 sec, min 1.75 sec)
+[2023.01.26-06.13.06:288][825]LogShaderCompilers: Display:                                             FDebugViewModePS - 7.78% of total time (compiled   53 times, average 3.60 sec, max 18.55 sec, min 1.42 sec)
+[2023.01.26-06.13.06:288][825]LogShaderCompilers: Display:                                                 FLumenCardVS - 7.21% of total time (compiled   50 times, average 3.54 sec, max 22.91 sec, min 1.41 sec)
+[2023.01.26-06.13.06:288][825]LogShaderCompilers: Display: ================================================
+[2023.01.26-06.15.17:900][ 98]LogEditorViewport: Clicking Background
+[2023.01.26-06.15.29:876][245]LogViewport: Scene viewport resized to 2055x1824, mode Windowed.
+[2023.01.26-06.15.40:841][416]LogViewport: Scene viewport resized to 3147x1824, mode Windowed.
+[2023.01.26-06.15.42:712][442]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.01.26-06.15.43:188][442]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Flat" FILE="../../../../../../Users/Zach/Documents/Unreal Projects/Shotgun/Content/Flat.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.01.26-06.15.43:267][442]LogUObjectHash: Compacting FUObjectHashTables data took   3.51ms
+[2023.01.26-06.15.43:617][442]LogSavePackage: Moving output files for package: /Game/Flat
+[2023.01.26-06.15.43:621][442]LogSavePackage: Moving '../../../../../../Users/Zach/Documents/Unreal Projects/Shotgun/Saved/Flat63C7AE40479633590A865EA34036D23C.tmp' to '../../../../../../Users/Zach/Documents/Unreal Projects/Shotgun/Content/Flat.umap'
+[2023.01.26-06.15.43:702][442]LogFileHelpers: Saving map 'Flat' took 0.516
+[2023.01.26-06.15.43:730][442]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.01 sec (total: 2.28 sec)
+[2023.01.26-06.15.43:750][442]AssetCheck: New page: Asset Save: Flat
+[2023.01.26-06.15.43:750][442]LogContentValidation: Display: Validating /Script/Engine.World /Game/Flat.Flat
+[2023.01.26-06.16.01:519][658]LogSlate: Vector cache flush requested. Reason: Large atlases out of space; 2/1 Textures; frames since last flush: 1095216674394
+[2023.01.26-06.16.01:519][658]LogSlate: Warning: Setting the threshold to trigger a flush to 2 non-atlased textures as there is a lot of font data being cached.
+[2023.01.26-06.16.06:807][705]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/FirstPerson/Blueprints/BP_Pickup_Rifle.BP_Pickup_Rifle_C
+[2023.01.26-06.16.06:807][705]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/FirstPerson/Blueprints/BP_Pickup_Rifle.BP_Pickup_Rifle_C
+[2023.01.26-06.16.06:824][705]LogActorFactory: Actor Factory spawned Blueprint /Game/FirstPerson/Blueprints/BP_Pickup_Rifle.BP_Pickup_Rifle as actor: BP_Pickup_Rifle_C /Game/Flat.Flat:PersistentLevel.BP_Pickup_Rifle_C_0
+[2023.01.26-06.16.06:838][705]LogActorFactory: Actor Factory spawned Blueprint /Game/FirstPerson/Blueprints/BP_Pickup_Rifle.BP_Pickup_Rifle as actor: BP_Pickup_Rifle_C /Game/Flat.Flat:PersistentLevel.BP_Pickup_Rifle_C_0
+[2023.01.26-06.16.06:943][705]LogShaderCompilers: Display: ================================================
+[2023.01.26-06.16.06:943][705]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.01.26-06.16.06:943][705]LogShaderCompilers: Display: Total job queries 5880, among them cache hits 57 (0.97%)
+[2023.01.26-06.16.06:944][705]LogShaderCompilers: Display: Tracking 911 distinct input hashes that result in 552 distinct outputs (60.59%)
+[2023.01.26-06.16.06:944][705]LogShaderCompilers: Display: RAM used: 6.15 MB (0.01 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.75%
+[2023.01.26-06.16.06:944][705]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.01.26-06.16.06:944][705]LogShaderCompilers: Display: Shaders Compiled: 805
+[2023.01.26-06.16.06:944][705]LogShaderCompilers: Display: Jobs assigned 809, completed 805 (99.51%)
+[2023.01.26-06.16.06:944][705]LogShaderCompilers: Display: Average time worker was idle: 0.00 s
+[2023.01.26-06.16.06:944][705]LogShaderCompilers: Display: Time job spent in pending queue: average 384.21 s, longest 854.96 s
+[2023.01.26-06.16.06:944][705]LogShaderCompilers: Display: Job execution time: average 4.25 s, max 25.20 s
+[2023.01.26-06.16.06:944][705]LogShaderCompilers: Display: Job life time (pending + execution): average 386.13 s, max 854.96
+[2023.01.26-06.16.06:945][705]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 856.94 s
+[2023.01.26-06.16.06:945][705]LogShaderCompilers: Display: Jobs were issued in 809 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.01.26-06.16.06:945][705]LogShaderCompilers: Display: Average processing rate: 0.94 jobs/sec
+[2023.01.26-06.16.06:945][705]LogShaderCompilers: Display: Total thread time: 3099.77 s
+[2023.01.26-06.16.06:945][705]LogShaderCompilers: Display: Total thread preprocess time: 189.32 s
+[2023.01.26-06.16.06:945][705]LogShaderCompilers: Display: Percentage time preprocessing: 6.11%
+[2023.01.26-06.16.06:945][705]LogShaderCompilers: Display: Effective parallelization: 3.62 (times faster than compiling all shaders on one thread). Compare with number of workers: 4
+[2023.01.26-06.16.06:945][705]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.01.26-06.16.06:946][705]LogShaderCompilers: Display:                         TBasePassPSTLightMapPolicyLQSkylight (compiled    6 times, average 6.76 sec, max 16.62 sec, min 2.20 sec)
+[2023.01.26-06.16.06:946][705]LogShaderCompilers: Display:                                 TBasePassPSTLightMapPolicyHQ (compiled    6 times, average 6.67 sec, max 16.65 sec, min 2.11 sec)
+[2023.01.26-06.16.06:946][705]LogShaderCompilers: Display:          TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQ (compiled    6 times, average 6.43 sec, max 15.35 sec, min 2.18 sec)
+[2023.01.26-06.16.06:946][705]LogShaderCompilers: Display:                                 TBasePassVSTLightMapPolicyHQ (compiled    6 times, average 6.16 sec, max 10.99 sec, min 1.92 sec)
+[2023.01.26-06.16.06:946][705]LogShaderCompilers: Display:  TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQSkylight (compiled    6 times, average 5.83 sec, max 12.17 sec, min 2.17 sec)
+[2023.01.26-06.16.06:946][705]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.01.26-06.16.06:946][705]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 7.81% of total time (compiled   55 times, average 4.40 sec, max 22.58 sec, min 1.70 sec)
+[2023.01.26-06.16.06:946][705]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 7.51% of total time (compiled   55 times, average 4.23 sec, max 13.07 sec, min 2.01 sec)
+[2023.01.26-06.16.06:947][705]LogShaderCompilers: Display:                                             FDebugViewModeVS - 7.06% of total time (compiled   58 times, average 3.77 sec, max 13.26 sec, min 1.75 sec)
+[2023.01.26-06.16.06:947][705]LogShaderCompilers: Display:                                             FDebugViewModePS - 6.98% of total time (compiled   58 times, average 3.73 sec, max 18.55 sec, min 1.42 sec)
+[2023.01.26-06.16.06:947][705]LogShaderCompilers: Display:                                                 FLumenCardVS - 6.48% of total time (compiled   55 times, average 3.65 sec, max 22.91 sec, min 1.41 sec)
+[2023.01.26-06.16.06:947][705]LogShaderCompilers: Display: ================================================
+[2023.01.26-06.16.08:832][721]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/FirstPerson/Blueprints/BP_Pickup_Rifle.BP_Pickup_Rifle_C
+[2023.01.26-06.16.08:832][721]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/FirstPerson/Blueprints/BP_Pickup_Rifle.BP_Pickup_Rifle_C
+[2023.01.26-06.16.08:853][721]LogActorFactory: Actor Factory spawned Blueprint /Game/FirstPerson/Blueprints/BP_Pickup_Rifle.BP_Pickup_Rifle as actor: BP_Pickup_Rifle_C /Game/Flat.Flat:PersistentLevel.BP_Pickup_Rifle_C_1
+[2023.01.26-06.16.08:867][721]LogActorFactory: Actor Factory spawned Blueprint /Game/FirstPerson/Blueprints/BP_Pickup_Rifle.BP_Pickup_Rifle as actor: BP_Pickup_Rifle_C /Game/Flat.Flat:PersistentLevel.BP_Pickup_Rifle_C_1
+[2023.01.26-06.16.49:126][305]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.01.26-06.16.49:173][305]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.01.26-06.16.49:173][305]PIE: New page: PIE session: Flat (Jan 25, 2023, 8:16:49 PM)
+[2023.01.26-06.16.49:174][305]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Flat
+[2023.01.26-06.16.49:298][305]LogPlayLevel: PIE: StaticDuplicateObject took: (0.123813s)
+[2023.01.26-06.16.49:298][305]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Flat.Flat to /Game/UEDPIE_0_Flat.Flat (0.124021s)
+[2023.01.26-06.16.49:299][305]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.26-06.16.49:302][305]LogAIModule: Creating AISystem for world Flat
+[2023.01.26-06.16.49:310][305]LogPlayLevel: PIE: World Init took: (0.011437s)
+[2023.01.26-06.16.49:395][305]LogUObjectHash: Compacting FUObjectHashTables data took   5.33ms
+[2023.01.26-06.16.49:402][305]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2023.01.26-06.16.49:402][305]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.01.26-06.16.49:403][305]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.01.26-06.16.49:403][305]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.01.26-06.16.49:403][305]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.01.26-06.16.49:403][305]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.01.26-06.16.49:403][305]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.01.26-06.16.49:403][305]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.01.26-06.16.49:403][305]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.01.26-06.16.49:406][305]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.01.26-06.16.49:406][305]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.01.26-06.16.49:406][305]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.01.26-06.16.49:415][305]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.01.26-06.16.49:618][305]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio(SST))
+[2023.01.26-06.16.49:621][305]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.01.26-06.16.49:621][305]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.01.26-06.16.49:621][305]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.01.26-06.16.49:626][305]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2023.01.26-06.16.49:627][305]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2023.01.26-06.16.49:635][305]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2023.01.26-06.16.49:635][305]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2023.01.26-06.16.49:636][305]LogInit: FAudioDevice initialized.
+[2023.01.26-06.16.49:636][305]LogAudio: Display: Audio Device (ID: 4) registered with world 'Flat'.
+[2023.01.26-06.16.49:649][305]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2023.01.26-06.16.49:663][305]LogWorld: Bringing World /Game/UEDPIE_0_Flat.Flat up for play (max tick rate 60) at 2023.01.26-01.16.49
+[2023.01.26-06.16.49:664][305]LogWorld: Bringing up level for play took: 0.013511
+[2023.01.26-06.16.49:673][305]LogOnline: OSS: Created online subsystem instance for: :Context_3
+[2023.01.26-06.16.49:686][305]PIE: Server logged in
+[2023.01.26-06.16.49:689][305]PIE: Play in editor total start time 0.516 seconds.
+[2023.01.26-06.16.54:669][364]LogAudioMixer: Warning: Audio Thread Command from InitSource() took 1.732000 milleseconds to execute
+[2023.01.26-06.17.03:158][474]LogProjectileMovement: Warning: GetSimulationTimeStep() - Max iterations 4 hit while remaining time 0.073084 > MaxSimulationTimeStep (0.050) for '/Game/UEDPIE_0_Flat.Flat:PersistentLevel.BP_FirstPersonProjectile_C_4.CollisionComponent'
+[2023.01.26-06.17.06:469][517]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.26-06.17.06:469][517]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Flat
+[2023.01.26-06.17.06:470][517]LogWorld: UWorld::CleanupWorld for Flat, bSessionEnded=true, bCleanupResources=true
+[2023.01.26-06.17.06:474][517]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.26-06.17.06:614][517]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.01.26-06.17.06:625][517]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.26-06.17.06:680][517]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.01.26-06.17.06:682][517]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2023.01.26-06.17.06:693][517]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2023.01.26-06.17.06:714][517]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.26-06.17.06:725][517]LogUObjectHash: Compacting FUObjectHashTables data took   3.92ms
+[2023.01.26-06.17.07:033][518]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2023.01.26-06.17.12:735][585]LogUObjectHash: Compacting FUObjectHashTables data took   3.83ms
+[2023.01.26-06.17.12:759][585]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.01.26-06.17.13:129][585]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Flat" FILE="../../../../../../Users/Zach/Documents/Unreal Projects/Shotgun/Content/Flat.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.01.26-06.17.13:187][585]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2023.01.26-06.17.13:473][585]LogSavePackage: Moving output files for package: /Game/Flat
+[2023.01.26-06.17.13:476][585]LogSavePackage: Moving '../../../../../../Users/Zach/Documents/Unreal Projects/Shotgun/Saved/Flat2FCD87F448B670C32CEDD994D246F9B4.tmp' to '../../../../../../Users/Zach/Documents/Unreal Projects/Shotgun/Content/Flat.umap'
+[2023.01.26-06.17.13:561][585]LogFileHelpers: Saving map 'Flat' took 0.434
+[2023.01.26-06.17.13:828][585]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.06 sec (total: 3.35 sec)
+[2023.01.26-06.17.13:847][585]AssetCheck: New page: Asset Save: Flat
+[2023.01.26-06.17.13:847][585]LogContentValidation: Display: Validating /Script/Engine.World /Game/Flat.Flat
+[2023.01.26-06.17.30:463][803]LogViewport: Scene viewport resized to 2055x1824, mode Windowed.
+[2023.01.26-06.17.45:871][ 12]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2023.01.26-06.17.45:871][ 12]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2023.01.26-06.17.45:872][ 12]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/Flat.Flat:PersistentLevel.StaticMeshActor_0
+[2023.01.26-06.17.45:915][ 12]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/Flat.Flat:PersistentLevel.StaticMeshActor_0
+[2023.01.26-06.17.47:853][ 30]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2023.01.26-06.17.47:853][ 30]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2023.01.26-06.17.47:861][ 30]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/Flat.Flat:PersistentLevel.StaticMeshActor_1
+[2023.01.26-06.17.47:865][ 30]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/Flat.Flat:PersistentLevel.StaticMeshActor_1
+[2023.01.26-06.17.51:437][ 73]LogViewport: Scene viewport resized to 3147x1824, mode Windowed.
+[2023.01.26-06.18.25:544][513]LogSlate: Took 0.000555 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.01.26-06.19.07:044][ 29]LogShaderCompilers: Display: ================================================
+[2023.01.26-06.19.07:045][ 29]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.01.26-06.19.07:045][ 29]LogShaderCompilers: Display: Total job queries 5906, among them cache hits 57 (0.97%)
+[2023.01.26-06.19.07:045][ 29]LogShaderCompilers: Display: Tracking 1060 distinct input hashes that result in 636 distinct outputs (60.00%)
+[2023.01.26-06.19.07:045][ 29]LogShaderCompilers: Display: RAM used: 7.18 MB (0.01 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.88%
+[2023.01.26-06.19.07:045][ 29]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.01.26-06.19.07:045][ 29]LogShaderCompilers: Display: Shaders Compiled: 954
+[2023.01.26-06.19.07:046][ 29]LogShaderCompilers: Display: Jobs assigned 958, completed 954 (99.58%)
+[2023.01.26-06.19.07:046][ 29]LogShaderCompilers: Display: Average time worker was idle: 0.00 s
+[2023.01.26-06.19.07:046][ 29]LogShaderCompilers: Display: Time job spent in pending queue: average 446.79 s, longest 1024.50 s
+[2023.01.26-06.19.07:046][ 29]LogShaderCompilers: Display: Job execution time: average 4.34 s, max 25.20 s
+[2023.01.26-06.19.07:046][ 29]LogShaderCompilers: Display: Job life time (pending + execution): average 450.86 s, max 1026.37
+[2023.01.26-06.19.07:046][ 29]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 1037.76 s
+[2023.01.26-06.19.07:046][ 29]LogShaderCompilers: Display: Jobs were issued in 958 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.01.26-06.19.07:047][ 29]LogShaderCompilers: Display: Average processing rate: 0.92 jobs/sec
+[2023.01.26-06.19.07:047][ 29]LogShaderCompilers: Display: Total thread time: 3772.84 s
+[2023.01.26-06.19.07:047][ 29]LogShaderCompilers: Display: Total thread preprocess time: 232.28 s
+[2023.01.26-06.19.07:047][ 29]LogShaderCompilers: Display: Percentage time preprocessing: 6.16%
+[2023.01.26-06.19.07:047][ 29]LogShaderCompilers: Display: Effective parallelization: 3.64 (times faster than compiling all shaders on one thread). Compare with number of workers: 4
+[2023.01.26-06.19.07:047][ 29]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.01.26-06.19.07:047][ 29]LogShaderCompilers: Display:                         TBasePassPSTLightMapPolicyLQSkylight (compiled    6 times, average 6.76 sec, max 16.62 sec, min 2.20 sec)
+[2023.01.26-06.19.07:047][ 29]LogShaderCompilers: Display:                                 TBasePassPSTLightMapPolicyHQ (compiled    6 times, average 6.67 sec, max 16.65 sec, min 2.11 sec)
+[2023.01.26-06.19.07:048][ 29]LogShaderCompilers: Display:          TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQ (compiled    6 times, average 6.43 sec, max 15.35 sec, min 2.18 sec)
+[2023.01.26-06.19.07:048][ 29]LogShaderCompilers: Display:                                 TBasePassVSTLightMapPolicyHQ (compiled    6 times, average 6.16 sec, max 10.99 sec, min 1.92 sec)
+[2023.01.26-06.19.07:048][ 29]LogShaderCompilers: Display:  TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQSkylight (compiled    6 times, average 5.83 sec, max 12.17 sec, min 2.17 sec)
+[2023.01.26-06.19.07:048][ 29]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.01.26-06.19.07:048][ 29]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 8.67% of total time (compiled   71 times, average 4.61 sec, max 22.58 sec, min 1.70 sec)
+[2023.01.26-06.19.07:049][ 29]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 8.09% of total time (compiled   70 times, average 4.36 sec, max 13.07 sec, min 2.01 sec)
+[2023.01.26-06.19.07:049][ 29]LogShaderCompilers: Display:                                             FDebugViewModeVS - 7.12% of total time (compiled   69 times, average 3.89 sec, max 13.26 sec, min 1.75 sec)
+[2023.01.26-06.19.07:049][ 29]LogShaderCompilers: Display:                                             FDebugViewModePS - 6.95% of total time (compiled   69 times, average 3.80 sec, max 18.55 sec, min 1.42 sec)
+[2023.01.26-06.19.07:049][ 29]LogShaderCompilers: Display:                                                 FLumenCardVS - 6.94% of total time (compiled   70 times, average 3.74 sec, max 22.91 sec, min 1.41 sec)
+[2023.01.26-06.19.07:049][ 29]LogShaderCompilers: Display: ================================================
+[2023.01.26-06.20.03:555][701]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.01.26-06.20.04:060][701]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Flat" FILE="../../../../../../Users/Zach/Documents/Unreal Projects/Shotgun/Content/Flat.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.01.26-06.20.04:159][701]LogUObjectHash: Compacting FUObjectHashTables data took   8.71ms
+[2023.01.26-06.20.04:549][701]LogSavePackage: Moving output files for package: /Game/Flat
+[2023.01.26-06.20.04:554][701]LogSavePackage: Moving '../../../../../../Users/Zach/Documents/Unreal Projects/Shotgun/Saved/FlatE779547049C08EFD09448C959F08C8D0.tmp' to '../../../../../../Users/Zach/Documents/Unreal Projects/Shotgun/Content/Flat.umap'
+[2023.01.26-06.20.04:639][701]LogFileHelpers: Saving map 'Flat' took 0.584
+[2023.01.26-06.20.04:880][701]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.32 sec (total: 4.67 sec)
+[2023.01.26-06.20.04:900][701]AssetCheck: New page: Asset Save: Flat
+[2023.01.26-06.20.04:900][701]LogContentValidation: Display: Validating /Script/Engine.World /Game/Flat.Flat
+[2023.01.26-06.20.21:099][885]Running C:/Program Files/Epic Games/UE_5.1/Engine/Build/BatchFiles/Build.bat  -projectfiles -project="C:/Users/Zach/Documents/Unreal Projects/Shotgun/Shotgun.uproject" -game -rocket -progress
+[2023.01.26-06.20.21:527][885]Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" -projectfiles -project="C:/Users/Zach/Documents/Unreal Projects/Shotgun/Shotgun.uproject" -game -rocket -progress
+[2023.01.26-06.20.23:947][885]Log file: C:\Users\Zach\AppData\Local\UnrealBuildTool\Log_GPF.txt
+[2023.01.26-06.20.24:048][885]
+[2023.01.26-06.20.24:048][885]Some Platforms were skipped due to invalid SDK setup: Android, Linux, LinuxArm64.
+[2023.01.26-06.20.24:048][885]See the log file for detailed information
+[2023.01.26-06.20.24:048][885]
+[2023.01.26-06.20.24:249][885]Discovering modules, targets and source code for project...
+[2023.01.26-06.20.43:910][885]Binding IntelliSense data...
+[2023.01.26-06.21.05:450][885]Binding IntelliSense data... 50%
+[2023.01.26-06.21.05:453][885]Binding IntelliSense data... 100%
+[2023.01.26-06.21.05:453][885]Writing project files...
+[2023.01.26-06.21.56:310][885]Writing project files... 33%
+[2023.01.26-06.21.56:416][885]Writing project files... 100%
