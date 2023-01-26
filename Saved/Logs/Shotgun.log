@@ -1350,3 +1350,355 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2023.01.26-06.06.29:499][998]LogUObjectHash: Compacting FUObjectHashTables data took   4.60ms
 [2023.01.26-06.06.31:267][999]Display: Reload/Re-instancing Complete: 1 package changed, 1 class unchanged
 [2023.01.26-06.06.31:267][999]LogLiveCoding: Display: Live coding succeeded
+[2023.01.26-06.07.04:486][352]LogShaderCompilers: Display: ================================================
+[2023.01.26-06.07.04:486][352]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.01.26-06.07.04:486][352]LogShaderCompilers: Display: Total job queries 5874, among them cache hits 57 (0.97%)
+[2023.01.26-06.07.04:487][352]LogShaderCompilers: Display: Tracking 381 distinct input hashes that result in 253 distinct outputs (66.40%)
+[2023.01.26-06.07.04:487][352]LogShaderCompilers: Display: RAM used: 2.74 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.33%
+[2023.01.26-06.07.04:487][352]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.01.26-06.07.04:487][352]LogShaderCompilers: Display: Shaders Compiled: 281
+[2023.01.26-06.07.04:487][352]LogShaderCompilers: Display: Jobs assigned 285, completed 281 (98.60%)
+[2023.01.26-06.07.04:487][352]LogShaderCompilers: Display: Average time worker was idle: 0.00 s
+[2023.01.26-06.07.04:487][352]LogShaderCompilers: Display: Time job spent in pending queue: average 108.31 s, longest 314.38 s
+[2023.01.26-06.07.04:487][352]LogShaderCompilers: Display: Job execution time: average 4.44 s, max 25.20 s
+[2023.01.26-06.07.04:487][352]LogShaderCompilers: Display: Job life time (pending + execution): average 109.86 s, max 314.38
+[2023.01.26-06.07.04:488][352]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 315.24 s
+[2023.01.26-06.07.04:488][352]LogShaderCompilers: Display: Jobs were issued in 285 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.01.26-06.07.04:488][352]LogShaderCompilers: Display: Average processing rate: 0.89 jobs/sec
+[2023.01.26-06.07.04:488][352]LogShaderCompilers: Display: Total thread time: 1136.80 s
+[2023.01.26-06.07.04:488][352]LogShaderCompilers: Display: Total thread preprocess time: 67.94 s
+[2023.01.26-06.07.04:488][352]LogShaderCompilers: Display: Percentage time preprocessing: 5.98%
+[2023.01.26-06.07.04:488][352]LogShaderCompilers: Display: Effective parallelization: 3.61 (times faster than compiling all shaders on one thread). Compare with number of workers: 4
+[2023.01.26-06.07.04:488][352]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.01.26-06.07.04:488][352]LogShaderCompilers: Display:                                 TBasePassPSTLightMapPolicyHQ (compiled    2 times, average 9.38 sec, max 16.65 sec, min 2.11 sec)
+[2023.01.26-06.07.04:488][352]LogShaderCompilers: Display:                         TBasePassPSTLightMapPolicyLQSkylight (compiled    3 times, average 8.16 sec, max 16.62 sec, min 2.20 sec)
+[2023.01.26-06.07.04:488][352]LogShaderCompilers: Display:          TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQ (compiled    3 times, average 7.42 sec, max 15.35 sec, min 2.18 sec)
+[2023.01.26-06.07.04:489][352]LogShaderCompilers: Display:                                 TBasePassVSTLightMapPolicyHQ (compiled    2 times, average 6.45 sec, max 10.99 sec, min 1.92 sec)
+[2023.01.26-06.07.04:489][352]LogShaderCompilers: Display:  TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQSkylight (compiled    3 times, average 6.44 sec, max 12.17 sec, min 2.17 sec)
+[2023.01.26-06.07.04:489][352]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.01.26-06.07.04:489][352]LogShaderCompilers: Display:                                             FDebugViewModePS - 7.25% of total time (compiled   18 times, average 4.58 sec, max 18.55 sec, min 1.42 sec)
+[2023.01.26-06.07.04:489][352]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 7.23% of total time (compiled   17 times, average 4.83 sec, max 22.58 sec, min 1.70 sec)
+[2023.01.26-06.07.04:489][352]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 6.60% of total time (compiled   17 times, average 4.42 sec, max 13.07 sec, min 2.01 sec)
+[2023.01.26-06.07.04:489][352]LogShaderCompilers: Display:                                             FDebugViewModeVS - 6.53% of total time (compiled   18 times, average 4.13 sec, max 13.26 sec, min 1.75 sec)
+[2023.01.26-06.07.04:489][352]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 6.28% of total time (compiled   13 times, average 5.49 sec, max 16.78 sec, min 1.53 sec)
+[2023.01.26-06.07.04:489][352]LogShaderCompilers: Display: ================================================
+[2023.01.26-06.07.40:140][746]LogSlate: Took 0.000917 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.01.26-06.08.00:459][896]LogEditorViewport: Clicking Background
+[2023.01.26-06.08.27:970][171]LogSlate: Took 0.000434 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2023.01.26-06.08.58:673][464]LogFactory: FactoryCreateFile: PackFactory with PackFactory (0 0 C:/Program Files/Epic Games/UE_5.1/FeaturePacks/TP_FirstPersonBP.upack)
+[2023.01.26-06.08.58:681][464]LogPackFactory: Finished extracting 8 files (including 0 errors).
+[2023.01.26-06.08.58:702][464]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/FirstPerson/Input/IMC_Default.uasset" to "../../../../../../Users/Zach/Documents/Unreal Projects/Shotgun/Content/FirstPerson/Input/IMC_Default.uasset"
+[2023.01.26-06.08.58:722][464]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/FirstPerson/Input/IMC_Weapons.uasset" to "../../../../../../Users/Zach/Documents/Unreal Projects/Shotgun/Content/FirstPerson/Input/IMC_Weapons.uasset"
+[2023.01.26-06.08.58:745][464]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/FirstPerson/Maps/FirstPersonMap.umap" to "../../../../../../Users/Zach/Documents/Unreal Projects/Shotgun/Content/FirstPerson/Maps/FirstPersonMap.umap"
+[2023.01.26-06.08.58:792][464]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/FirstPerson/Maps/FirstPersonMap_BuiltData.uasset" to "../../../../../../Users/Zach/Documents/Unreal Projects/Shotgun/Content/FirstPerson/Maps/FirstPersonMap_BuiltData.uasset"
+[2023.01.26-06.08.58:813][464]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset" to "../../../../../../Users/Zach/Documents/Unreal Projects/Shotgun/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset"
+[2023.01.26-06.08.58:831][464]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/FirstPerson/Blueprints/BP_FirstPersonGameMode.uasset" to "../../../../../../Users/Zach/Documents/Unreal Projects/Shotgun/Content/FirstPerson/Blueprints/BP_FirstPersonGameMode.uasset"
+[2023.01.26-06.08.58:852][464]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/FirstPerson/Blueprints/BP_FirstPersonProjectile.uasset" to "../../../../../../Users/Zach/Documents/Unreal Projects/Shotgun/Content/FirstPerson/Blueprints/BP_FirstPersonProjectile.uasset"
+[2023.01.26-06.08.58:874][464]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/FirstPerson/Blueprints/BP_Pickup_Rifle.uasset" to "../../../../../../Users/Zach/Documents/Unreal Projects/Shotgun/Content/FirstPerson/Blueprints/BP_Pickup_Rifle.uasset"
+[2023.01.26-06.08.58:893][464]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/FirstPerson/Blueprints/BP_Weapon_Component.uasset" to "../../../../../../Users/Zach/Documents/Unreal Projects/Shotgun/Content/FirstPerson/Blueprints/BP_Weapon_Component.uasset"
+[2023.01.26-06.08.58:912][464]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/FirstPerson/Input/Actions/IA_Jump.uasset" to "../../../../../../Users/Zach/Documents/Unreal Projects/Shotgun/Content/FirstPerson/Input/Actions/IA_Jump.uasset"
+[2023.01.26-06.08.58:928][464]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/FirstPerson/Input/Actions/IA_Look.uasset" to "../../../../../../Users/Zach/Documents/Unreal Projects/Shotgun/Content/FirstPerson/Input/Actions/IA_Look.uasset"
+[2023.01.26-06.08.58:946][464]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/FirstPerson/Input/Actions/IA_Move.uasset" to "../../../../../../Users/Zach/Documents/Unreal Projects/Shotgun/Content/FirstPerson/Input/Actions/IA_Move.uasset"
+[2023.01.26-06.08.58:965][464]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/FirstPerson/Input/Actions/IA_Shoot.uasset" to "../../../../../../Users/Zach/Documents/Unreal Projects/Shotgun/Content/FirstPerson/Input/Actions/IA_Shoot.uasset"
+[2023.01.26-06.08.58:984][464]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/0/GO/I8WEFD3RY9V3NVQLSU6QM4.uasset" to "../../../../../../Users/Zach/Documents/Unreal Projects/Shotgun/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/0/GO/I8WEFD3RY9V3NVQLSU6QM4.uasset"
+[2023.01.26-06.08.59:001][464]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/0/7P/QZX5AESKLO855EVPT5JU20.uasset" to "../../../../../../Users/Zach/Documents/Unreal Projects/Shotgun/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/0/7P/QZX5AESKLO855EVPT5JU20.uasset"
+[2023.01.26-06.08.59:019][464]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/0/CL/381LM03PFI8AF9NED1SEV2.uasset" to "../../../../../../Users/Zach/Documents/Unreal Projects/Shotgun/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/0/CL/381LM03PFI8AF9NED1SEV2.uasset"
+[2023.01.26-06.08.59:034][464]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/0/NB/NWWEVRQSGT6ARVZ8HQLCM9.uasset" to "../../../../../../Users/Zach/Documents/Unreal Projects/Shotgun/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/0/NB/NWWEVRQSGT6ARVZ8HQLCM9.uasset"
+[2023.01.26-06.08.59:052][464]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/0/WB/V4ALNTJYOVWM8BU452CKV5.uasset" to "../../../../../../Users/Zach/Documents/Unreal Projects/Shotgun/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/0/WB/V4ALNTJYOVWM8BU452CKV5.uasset"
+[2023.01.26-06.08.59:075][464]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/7/5X/6EW8RE9VA2GGHRWK614FCI.uasset" to "../../../../../../Users/Zach/Documents/Unreal Projects/Shotgun/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/7/5X/6EW8RE9VA2GGHRWK614FCI.uasset"
+[2023.01.26-06.08.59:094][464]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/7/WS/X084A70TPBKFLJDCV2U5PN.uasset" to "../../../../../../Users/Zach/Documents/Unreal Projects/Shotgun/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/7/WS/X084A70TPBKFLJDCV2U5PN.uasset"
+[2023.01.26-06.08.59:115][464]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/7/DF/1GID8P6B00XRWKYCXU7HT1.uasset" to "../../../../../../Users/Zach/Documents/Unreal Projects/Shotgun/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/7/DF/1GID8P6B00XRWKYCXU7HT1.uasset"
+[2023.01.26-06.08.59:136][464]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/7/L5/1ZJ54FMA0DAL3I2Q8RFAIB.uasset" to "../../../../../../Users/Zach/Documents/Unreal Projects/Shotgun/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/7/L5/1ZJ54FMA0DAL3I2Q8RFAIB.uasset"
+[2023.01.26-06.08.59:154][464]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/7/GI/GZM47KS5FPIQH5TLSYC1ME.uasset" to "../../../../../../Users/Zach/Documents/Unreal Projects/Shotgun/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/7/GI/GZM47KS5FPIQH5TLSYC1ME.uasset"
+[2023.01.26-06.08.59:175][464]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/D/0W/E1FKEGVKGOLM7HGLQPCIPO.uasset" to "../../../../../../Users/Zach/Documents/Unreal Projects/Shotgun/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/D/0W/E1FKEGVKGOLM7HGLQPCIPO.uasset"
+[2023.01.26-06.08.59:200][464]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/__ExternalObjects__/FirstPerson/Maps/FirstPersonMap/8/9P/KRNGZ1PU2Y3ACDDE2D2XC5.uasset" to "../../../../../../Users/Zach/Documents/Unreal Projects/Shotgun/Content/__ExternalObjects__/FirstPerson/Maps/FirstPersonMap/8/9P/KRNGZ1PU2Y3ACDDE2D2XC5.uasset"
+[2023.01.26-06.08.59:215][464]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/0/0M/LYKU8MRWM4BO3O1FDZBG2U.uasset" to "../../../../../../Users/Zach/Documents/Unreal Projects/Shotgun/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/0/0M/LYKU8MRWM4BO3O1FDZBG2U.uasset"
+[2023.01.26-06.08.59:238][464]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/63/MG6FOV6QQX2CAZCGF7O9MM.uasset" to "../../../../../../Users/Zach/Documents/Unreal Projects/Shotgun/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/63/MG6FOV6QQX2CAZCGF7O9MM.uasset"
+[2023.01.26-06.08.59:261][464]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/JT/XIHYQ8ZTVL6F9GCUZX1AQ2.uasset" to "../../../../../../Users/Zach/Documents/Unreal Projects/Shotgun/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/JT/XIHYQ8ZTVL6F9GCUZX1AQ2.uasset"
+[2023.01.26-06.08.59:277][464]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/OD/YPSPM063O6XAJVKSDHY2JX.uasset" to "../../../../../../Users/Zach/Documents/Unreal Projects/Shotgun/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/OD/YPSPM063O6XAJVKSDHY2JX.uasset"
+[2023.01.26-06.08.59:293][464]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/QL/31H7DJTVWEX04CCMX5U1SN.uasset" to "../../../../../../Users/Zach/Documents/Unreal Projects/Shotgun/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/QL/31H7DJTVWEX04CCMX5U1SN.uasset"
+[2023.01.26-06.08.59:312][464]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/RN/55P1SMQLAF7OK6300D5I8N.uasset" to "../../../../../../Users/Zach/Documents/Unreal Projects/Shotgun/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/RN/55P1SMQLAF7OK6300D5I8N.uasset"
+[2023.01.26-06.08.59:330][464]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/6K/53TOYTOLDEUBMS5SLUFP3V.uasset" to "../../../../../../Users/Zach/Documents/Unreal Projects/Shotgun/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/6K/53TOYTOLDEUBMS5SLUFP3V.uasset"
+[2023.01.26-06.08.59:345][464]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/2J/R4MRTH8FEAO7ML1BCJFIZ2.uasset" to "../../../../../../Users/Zach/Documents/Unreal Projects/Shotgun/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/2J/R4MRTH8FEAO7ML1BCJFIZ2.uasset"
+[2023.01.26-06.08.59:366][464]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/Q2/TOKV0KMMZ7RIQ78R0UEDQL.uasset" to "../../../../../../Users/Zach/Documents/Unreal Projects/Shotgun/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/Q2/TOKV0KMMZ7RIQ78R0UEDQL.uasset"
+[2023.01.26-06.08.59:381][464]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/OJ/9MHHMH0XHVZ04YDZ7NPC32.uasset" to "../../../../../../Users/Zach/Documents/Unreal Projects/Shotgun/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/OJ/9MHHMH0XHVZ04YDZ7NPC32.uasset"
+[2023.01.26-06.08.59:396][464]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/VP/FVTPO8KZ0WPMCSQLVJE6O9.uasset" to "../../../../../../Users/Zach/Documents/Unreal Projects/Shotgun/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/VP/FVTPO8KZ0WPMCSQLVJE6O9.uasset"
+[2023.01.26-06.08.59:412][464]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/E/MX/R1GV431P5FDO08OFULRA01.uasset" to "../../../../../../Users/Zach/Documents/Unreal Projects/Shotgun/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/E/MX/R1GV431P5FDO08OFULRA01.uasset"
+[2023.01.26-06.08.59:428][464]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/E/UE/YUZ9741T50O1SYRX90OB0S.uasset" to "../../../../../../Users/Zach/Documents/Unreal Projects/Shotgun/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/E/UE/YUZ9741T50O1SYRX90OB0S.uasset"
+[2023.01.26-06.08.59:446][464]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/__ExternalObjects__/FirstPerson/Maps/FirstPersonMap/7/ZX/JUGNISA5MV8V8FE530PDPQ.uasset" to "../../../../../../Users/Zach/Documents/Unreal Projects/Shotgun/Content/__ExternalObjects__/FirstPerson/Maps/FirstPersonMap/7/ZX/JUGNISA5MV8V8FE530PDPQ.uasset"
+[2023.01.26-06.08.59:463][464]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/E/V3/ICWLYCF62EJ63XTK5ZSZWV.uasset" to "../../../../../../Users/Zach/Documents/Unreal Projects/Shotgun/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/E/V3/ICWLYCF62EJ63XTK5ZSZWV.uasset"
+[2023.01.26-06.08.59:480][464]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/3/0O/4IRR0TBO7VGKMMYSZRQTB1.uasset" to "../../../../../../Users/Zach/Documents/Unreal Projects/Shotgun/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/3/0O/4IRR0TBO7VGKMMYSZRQTB1.uasset"
+[2023.01.26-06.08.59:499][464]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/3/AI/0XWE3RNM2XQC0ST1KXG02O.uasset" to "../../../../../../Users/Zach/Documents/Unreal Projects/Shotgun/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/3/AI/0XWE3RNM2XQC0ST1KXG02O.uasset"
+[2023.01.26-06.08.59:516][464]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/3/C8/Z38FT77DKZLKDXTQ7PZNM4.uasset" to "../../../../../../Users/Zach/Documents/Unreal Projects/Shotgun/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/3/C8/Z38FT77DKZLKDXTQ7PZNM4.uasset"
+[2023.01.26-06.08.59:531][464]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/3/YY/ZEL6NJUQJU43LAD9X3NXTT.uasset" to "../../../../../../Users/Zach/Documents/Unreal Projects/Shotgun/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/3/YY/ZEL6NJUQJU43LAD9X3NXTT.uasset"
+[2023.01.26-06.08.59:547][464]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/3/CP/XRLOR3HVYVHJA3N9PKGXZH.uasset" to "../../../../../../Users/Zach/Documents/Unreal Projects/Shotgun/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/3/CP/XRLOR3HVYVHJA3N9PKGXZH.uasset"
+[2023.01.26-06.08.59:570][464]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/8C/EAHCBN229IT8APJO305AH5.uasset" to "../../../../../../Users/Zach/Documents/Unreal Projects/Shotgun/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/8C/EAHCBN229IT8APJO305AH5.uasset"
+[2023.01.26-06.08.59:589][464]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/DI/1JZHHCOBVQ2F5XRUWSES1X.uasset" to "../../../../../../Users/Zach/Documents/Unreal Projects/Shotgun/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/DI/1JZHHCOBVQ2F5XRUWSES1X.uasset"
+[2023.01.26-06.08.59:604][464]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/80/QQN0UFFAA797E1UT4IMD29.uasset" to "../../../../../../Users/Zach/Documents/Unreal Projects/Shotgun/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/80/QQN0UFFAA797E1UT4IMD29.uasset"
+[2023.01.26-06.08.59:623][464]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/2W/U0XT0R08XQA6C15NK8ILFA.uasset" to "../../../../../../Users/Zach/Documents/Unreal Projects/Shotgun/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/2W/U0XT0R08XQA6C15NK8ILFA.uasset"
+[2023.01.26-06.08.59:640][464]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/91/64ROQWZ22CQVFJMU4XABML.uasset" to "../../../../../../Users/Zach/Documents/Unreal Projects/Shotgun/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/91/64ROQWZ22CQVFJMU4XABML.uasset"
+[2023.01.26-06.08.59:658][464]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/RJ/Z7CLKO8GGJ7RXH5PUAF4T4.uasset" to "../../../../../../Users/Zach/Documents/Unreal Projects/Shotgun/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/RJ/Z7CLKO8GGJ7RXH5PUAF4T4.uasset"
+[2023.01.26-06.08.59:675][464]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/XJ/HL558UUAGCS9HVVOI0S7PX.uasset" to "../../../../../../Users/Zach/Documents/Unreal Projects/Shotgun/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/XJ/HL558UUAGCS9HVVOI0S7PX.uasset"
+[2023.01.26-06.08.59:691][464]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/__ExternalObjects__/FirstPerson/Maps/FirstPersonMap/D/PH/WQFJJGR81PTWACYGUC1CP5.uasset" to "../../../../../../Users/Zach/Documents/Unreal Projects/Shotgun/Content/__ExternalObjects__/FirstPerson/Maps/FirstPersonMap/D/PH/WQFJJGR81PTWACYGUC1CP5.uasset"
+[2023.01.26-06.08.59:710][464]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/JW/IY5R6I5N0YWU9LYWKXFXH9.uasset" to "../../../../../../Users/Zach/Documents/Unreal Projects/Shotgun/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/JW/IY5R6I5N0YWU9LYWKXFXH9.uasset"
+[2023.01.26-06.08.59:730][464]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/0Z/5RQIHCZ9W3UXRGL4LTLQAK.uasset" to "../../../../../../Users/Zach/Documents/Unreal Projects/Shotgun/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/0Z/5RQIHCZ9W3UXRGL4LTLQAK.uasset"
+[2023.01.26-06.08.59:748][464]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/7Z/7EHFAZ5HVWXAWQ04QO5TH0.uasset" to "../../../../../../Users/Zach/Documents/Unreal Projects/Shotgun/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/7Z/7EHFAZ5HVWXAWQ04QO5TH0.uasset"
+[2023.01.26-06.08.59:768][464]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/HC/FI3CQDKJY4J00D2B21FYQZ.uasset" to "../../../../../../Users/Zach/Documents/Unreal Projects/Shotgun/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/HC/FI3CQDKJY4J00D2B21FYQZ.uasset"
+[2023.01.26-06.08.59:795][464]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/AJ/2XZ3RUK0LFB63FVNQE7P5R.uasset" to "../../../../../../Users/Zach/Documents/Unreal Projects/Shotgun/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/AJ/2XZ3RUK0LFB63FVNQE7P5R.uasset"
+[2023.01.26-06.08.59:810][464]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/F/2F/0SPQG8P507LI9VUAFG20OA.uasset" to "../../../../../../Users/Zach/Documents/Unreal Projects/Shotgun/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/F/2F/0SPQG8P507LI9VUAFG20OA.uasset"
+[2023.01.26-06.08.59:828][464]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/51/6JKB4DNGJP09QUHY23FHRV.uasset" to "../../../../../../Users/Zach/Documents/Unreal Projects/Shotgun/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/51/6JKB4DNGJP09QUHY23FHRV.uasset"
+[2023.01.26-06.08.59:844][464]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/EF/G3O7YJR3QU51OHQGRYB635.uasset" to "../../../../../../Users/Zach/Documents/Unreal Projects/Shotgun/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/EF/G3O7YJR3QU51OHQGRYB635.uasset"
+[2023.01.26-06.08.59:859][464]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/YQ/KT6JL4FVCNJJ9VFOCSF32J.uasset" to "../../../../../../Users/Zach/Documents/Unreal Projects/Shotgun/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/YQ/KT6JL4FVCNJJ9VFOCSF32J.uasset"
+[2023.01.26-06.08.59:877][464]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/__ExternalObjects__/FirstPerson/Maps/FirstPersonMap/3/9Y/O1HBCAIOGYKE5W89K0N3EC.uasset" to "../../../../../../Users/Zach/Documents/Unreal Projects/Shotgun/Content/__ExternalObjects__/FirstPerson/Maps/FirstPersonMap/3/9Y/O1HBCAIOGYKE5W89K0N3EC.uasset"
+[2023.01.26-06.08.59:892][464]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/__ExternalObjects__/FirstPerson/Maps/FirstPersonMap/E/2M/ESWAVQBPX1XK2OH2YGVZCM.uasset" to "../../../../../../Users/Zach/Documents/Unreal Projects/Shotgun/Content/__ExternalObjects__/FirstPerson/Maps/FirstPersonMap/E/2M/ESWAVQBPX1XK2OH2YGVZCM.uasset"
+[2023.01.26-06.08.59:906][464]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/DD/654T6CAPVSXAN1LXEX71EI.uasset" to "../../../../../../Users/Zach/Documents/Unreal Projects/Shotgun/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/DD/654T6CAPVSXAN1LXEX71EI.uasset"
+[2023.01.26-06.08.59:923][464]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/__ExternalObjects__/FirstPerson/Maps/FirstPersonMap/A/JH/8TTAOMHN06NOHWGDJXKH1N.uasset" to "../../../../../../Users/Zach/Documents/Unreal Projects/Shotgun/Content/__ExternalObjects__/FirstPerson/Maps/FirstPersonMap/A/JH/8TTAOMHN06NOHWGDJXKH1N.uasset"
+[2023.01.26-06.08.59:944][464]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/G2/DXY1ROMU8NVTUPH999VNGV.uasset" to "../../../../../../Users/Zach/Documents/Unreal Projects/Shotgun/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/G2/DXY1ROMU8NVTUPH999VNGV.uasset"
+[2023.01.26-06.08.59:962][464]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/CR/SRVPLA8UNZ8XIIP0E036DI.uasset" to "../../../../../../Users/Zach/Documents/Unreal Projects/Shotgun/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/CR/SRVPLA8UNZ8XIIP0E036DI.uasset"
+[2023.01.26-06.08.59:981][464]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/PT/ZXUQMNLL9GZ2UNQ5D0R4A4.uasset" to "../../../../../../Users/Zach/Documents/Unreal Projects/Shotgun/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/PT/ZXUQMNLL9GZ2UNQ5D0R4A4.uasset"
+[2023.01.26-06.08.59:997][464]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/3M/4ATOKH0ZGPCVBS85MPKAXK.uasset" to "../../../../../../Users/Zach/Documents/Unreal Projects/Shotgun/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/3M/4ATOKH0ZGPCVBS85MPKAXK.uasset"
+[2023.01.26-06.09.00:017][464]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/__ExternalObjects__/FirstPerson/Maps/FirstPersonMap/E/ZB/64YLC9YROSMO90SC5KR0PE.uasset" to "../../../../../../Users/Zach/Documents/Unreal Projects/Shotgun/Content/__ExternalObjects__/FirstPerson/Maps/FirstPersonMap/E/ZB/64YLC9YROSMO90SC5KR0PE.uasset"
+[2023.01.26-06.09.00:036][464]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/CF/ZNIOCRD90Z70MMV9NMW778.uasset" to "../../../../../../Users/Zach/Documents/Unreal Projects/Shotgun/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/CF/ZNIOCRD90Z70MMV9NMW778.uasset"
+[2023.01.26-06.09.00:057][464]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/CW/6HT16P8P5RAXNJG3EVYWE9.uasset" to "../../../../../../Users/Zach/Documents/Unreal Projects/Shotgun/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/CW/6HT16P8P5RAXNJG3EVYWE9.uasset"
+[2023.01.26-06.09.00:074][464]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/SZ/D1AHM62WL9TXSNPYQDXQMZ.uasset" to "../../../../../../Users/Zach/Documents/Unreal Projects/Shotgun/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/SZ/D1AHM62WL9TXSNPYQDXQMZ.uasset"
+[2023.01.26-06.09.00:089][464]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/Y4/KY9ZXT77SAVGWBRTNCFCSC.uasset" to "../../../../../../Users/Zach/Documents/Unreal Projects/Shotgun/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/Y4/KY9ZXT77SAVGWBRTNCFCSC.uasset"
+[2023.01.26-06.09.00:104][464]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/Z7/W1SXRCM1KAKBJOIZDLHZ47.uasset" to "../../../../../../Users/Zach/Documents/Unreal Projects/Shotgun/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/Z7/W1SXRCM1KAKBJOIZDLHZ47.uasset"
+[2023.01.26-06.09.00:120][464]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/C/P8/0GJ9TLQE2YKOIFZ6YHG33H.uasset" to "../../../../../../Users/Zach/Documents/Unreal Projects/Shotgun/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/C/P8/0GJ9TLQE2YKOIFZ6YHG33H.uasset"
+[2023.01.26-06.09.00:138][464]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/C/VO/VMN4G7K3NKKV6F8HTPHHDB.uasset" to "../../../../../../Users/Zach/Documents/Unreal Projects/Shotgun/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/C/VO/VMN4G7K3NKKV6F8HTPHHDB.uasset"
+[2023.01.26-06.09.00:154][464]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/C/ZU/PDQ0AB8RLNMVID876FD49G.uasset" to "../../../../../../Users/Zach/Documents/Unreal Projects/Shotgun/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/C/ZU/PDQ0AB8RLNMVID876FD49G.uasset"
+[2023.01.26-06.09.00:171][464]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/__ExternalObjects__/FirstPerson/Maps/FirstPersonMap/6/2R/TKXMGQLWGTB6FEH6EYY7NK.uasset" to "../../../../../../Users/Zach/Documents/Unreal Projects/Shotgun/Content/__ExternalObjects__/FirstPerson/Maps/FirstPersonMap/6/2R/TKXMGQLWGTB6FEH6EYY7NK.uasset"
+[2023.01.26-06.09.00:187][464]LogPackFactory: Copied "../../../Templates/TP_FirstPersonBP/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/80/RCXALNT3NG94XMV0V6D4XE.uasset" to "../../../../../../Users/Zach/Documents/Unreal Projects/Shotgun/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/80/RCXALNT3NG94XMV0V6D4XE.uasset"
+[2023.01.26-06.09.00:438][464]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.01.26-06.09.00:702][464]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPerson/Input/IMC_Default" FILE="../../../../../../Users/Zach/Documents/Unreal Projects/Shotgun/Content/FirstPerson/Input/IMC_Default.uasset" SILENT=true
+[2023.01.26-06.09.00:732][464]LogPackageLocalizationCache: Processed 43 localized package path(s) for 1 prioritized culture(s) in 0.028681 seconds
+[2023.01.26-06.09.00:735][464]LogSerialization: UsePackageTrailer: 'true'
+[2023.01.26-06.09.00:741][464]LogSavePackage: Moving output files for package: /Game/FirstPerson/Input/IMC_Default
+[2023.01.26-06.09.00:745][464]LogSavePackage: Moving '../../../../../../Users/Zach/Documents/Unreal Projects/Shotgun/Saved/IMC_Default9F1CE2DB4A392F890584A8808E186584.tmp' to '../../../../../../Users/Zach/Documents/Unreal Projects/Shotgun/Content/FirstPerson/Input/IMC_Default.uasset'
+[2023.01.26-06.09.00:790][464]LogFileHelpers: InternalPromptForCheckoutAndSave took 351 ms
+[2023.01.26-06.09.01:636][464]AssetCheck: New page: Asset Save: IMC_Default
+[2023.01.26-06.09.01:636][464]LogContentValidation: Display: Validating /Script/EnhancedInput.InputMappingContext /Game/FirstPerson/Input/IMC_Default.IMC_Default
+[2023.01.26-06.09.20:215][602]LogUObjectHash: Compacting FUObjectHashTables data took   2.95ms
+[2023.01.26-06.09.28:571][664]LogSynthBenchmark: Display: FSynthBenchmark (V0.95):  requested WorkScale=1.00
+[2023.01.26-06.09.28:571][664]LogSynthBenchmark: Display: ===============
+[2023.01.26-06.09.28:571][664]LogSynthBenchmark: Display: Main Processor:
+[2023.01.26-06.09.28:681][664]LogSynthBenchmark: Display:          ... 0.050578 s/Run 'RayIntersect'
+[2023.01.26-06.09.28:681][664]LogSynthBenchmark: Display:          ... 0.059900 s/Run 'Fractal'
+[2023.01.26-06.09.28:681][664]LogSynthBenchmark: Display: 
+[2023.01.26-06.09.28:682][664]LogSynthBenchmark: Display:   CompiledTarget_x_Bits: 64
+[2023.01.26-06.09.28:682][664]LogSynthBenchmark: Display:   UE_BUILD_SHIPPING: 0
+[2023.01.26-06.09.28:682][664]LogSynthBenchmark: Display:   UE_BUILD_TEST: 0
+[2023.01.26-06.09.28:682][664]LogSynthBenchmark: Display:   UE_BUILD_DEBUG: 0
+[2023.01.26-06.09.28:682][664]LogSynthBenchmark: Display:   TotalPhysicalGBRam: 16
+[2023.01.26-06.09.28:682][664]LogSynthBenchmark: Display:   NumberOfCores (physical): 4
+[2023.01.26-06.09.28:682][664]LogSynthBenchmark: Display:   NumberOfCores (logical): 8
+[2023.01.26-06.09.28:682][664]LogSynthBenchmark: Display:   CPU Perf Index 0: 50.6 (weight 1.00)
+[2023.01.26-06.09.28:682][664]LogSynthBenchmark: Display:   CPU Perf Index 1: 47.7 (weight 1.50)
+[2023.01.26-06.09.28:682][664]LogSynthBenchmark: Display:  
+[2023.01.26-06.09.28:682][664]LogSynthBenchmark: Display: Graphics:
+[2023.01.26-06.09.28:682][664]LogSynthBenchmark: Display:   Adapter Name: 'NVIDIA GeForce GTX 1050'
+[2023.01.26-06.09.28:682][664]LogSynthBenchmark: Display:   (On Optimus the name might be wrong, memory should be ok)
+[2023.01.26-06.09.28:682][664]LogSynthBenchmark: Display:   Vendor Id: 0x10DE
+[2023.01.26-06.09.28:682][664]LogSynthBenchmark: Display:   Device Id: 0x1C8D
+[2023.01.26-06.09.28:683][664]LogSynthBenchmark: Display:   Device Revision: 0xA1
+[2023.01.26-06.09.28:683][664]LogSynthBenchmark: Display:   GPU Memory: 1979/0/8151 MB
+[2023.01.26-06.09.29:906][664]LogSynthBenchmark: Display:   GPU first test: 0.03s
+[2023.01.26-06.09.29:906][664]LogSynthBenchmark: Display:          ... 0.250 s/GigaPix, Confidence=81% 'ALUHeavyNoise' (likely to be very inaccurate)
+[2023.01.26-06.09.29:907][664]LogSynthBenchmark: Display:          ... 0.215 s/GigaPix, Confidence=100% 'TexHeavy' (likely to be very inaccurate)
+[2023.01.26-06.09.29:907][664]LogSynthBenchmark: Display:          ... 0.179 s/GigaPix, Confidence=100% 'DepTexHeavy' (likely to be very inaccurate)
+[2023.01.26-06.09.29:907][664]LogSynthBenchmark: Display:          ... 0.823 s/GigaPix, Confidence=100% 'FillOnly' (likely to be very inaccurate)
+[2023.01.26-06.09.29:907][664]LogSynthBenchmark: Display:          ... 0.053 s/GigaPix, Confidence=100% 'Bandwidth' (likely to be very inaccurate)
+[2023.01.26-06.09.29:907][664]LogSynthBenchmark: Display:          ... 6.038 s/GigaVert, Confidence=40% 'VertThroughPut1' (likely to be very inaccurate)
+[2023.01.26-06.09.29:907][664]LogSynthBenchmark: Display:          ... 0.525 s/GigaVert, Confidence=60% 'VertThroughPut2' (likely to be very inaccurate)
+[2023.01.26-06.09.31:468][664]LogSynthBenchmark: Display:   GPU second test: 0.38s
+[2023.01.26-06.09.31:468][664]LogSynthBenchmark: Display:          ... 0.367 s/GigaPix, Confidence=100% 'ALUHeavyNoise' (likely to be inaccurate)
+[2023.01.26-06.09.31:469][664]LogSynthBenchmark: Display:          ... 0.286 s/GigaPix, Confidence=100% 'TexHeavy' (likely to be inaccurate)
+[2023.01.26-06.09.31:469][664]LogSynthBenchmark: Display:          ... 0.257 s/GigaPix, Confidence=100% 'DepTexHeavy' (likely to be inaccurate)
+[2023.01.26-06.09.31:469][664]LogSynthBenchmark: Display:          ... 1.296 s/GigaPix, Confidence=100% 'FillOnly' (likely to be inaccurate)
+[2023.01.26-06.09.31:469][664]LogSynthBenchmark: Display:          ... 0.056 s/GigaPix, Confidence=100% 'Bandwidth' (likely to be inaccurate)
+[2023.01.26-06.09.31:469][664]LogSynthBenchmark: Display:          ... 0.251 s/GigaVert, Confidence=100% 'VertThroughPut1' (likely to be inaccurate)
+[2023.01.26-06.09.31:469][664]LogSynthBenchmark: Display:          ... 0.257 s/GigaVert, Confidence=100% 'VertThroughPut2' (likely to be inaccurate)
+[2023.01.26-06.09.31:469][664]LogSynthBenchmark: Display:   GPU Final Results:
+[2023.01.26-06.09.31:469][664]LogSynthBenchmark: Display:          ... 0.367 s/GigaPix, Confidence=100% 'ALUHeavyNoise'
+[2023.01.26-06.09.31:469][664]LogSynthBenchmark: Display:          ... 0.286 s/GigaPix, Confidence=100% 'TexHeavy'
+[2023.01.26-06.09.31:469][664]LogSynthBenchmark: Display:          ... 0.257 s/GigaPix, Confidence=100% 'DepTexHeavy'
+[2023.01.26-06.09.31:469][664]LogSynthBenchmark: Display:          ... 1.296 s/GigaPix, Confidence=100% 'FillOnly'
+[2023.01.26-06.09.31:470][664]LogSynthBenchmark: Display:          ... 0.056 s/GigaPix, Confidence=100% 'Bandwidth'
+[2023.01.26-06.09.31:470][664]LogSynthBenchmark: Display:          ... 0.251 s/GigaVert, Confidence=100% 'VertThroughPut1'
+[2023.01.26-06.09.31:470][664]LogSynthBenchmark: Display:          ... 0.257 s/GigaVert, Confidence=100% 'VertThroughPut2'
+[2023.01.26-06.09.31:470][664]LogSynthBenchmark: Display: 
+[2023.01.26-06.09.31:470][664]LogSynthBenchmark: Display:   GPU Perf Index 0: 8.0 (weight 1.00)
+[2023.01.26-06.09.31:470][664]LogSynthBenchmark: Display:   GPU Perf Index 1: 3.8 (weight 0.10)
+[2023.01.26-06.09.31:470][664]LogSynthBenchmark: Display:   GPU Perf Index 2: 6.7 (weight 0.10)
+[2023.01.26-06.09.31:470][664]LogSynthBenchmark: Display:   GPU Perf Index 3: 5.1 (weight 3.00)
+[2023.01.26-06.09.31:470][664]LogSynthBenchmark: Display:   GPU Perf Index 4: 5.2 (weight 1.00)
+[2023.01.26-06.09.31:470][664]LogSynthBenchmark: Display:   GPU Perf Index 5: 16.4 (weight 0.00)
+[2023.01.26-06.09.31:470][664]LogSynthBenchmark: Display:   GPU Perf Index 6: 14.6 (weight 0.00)
+[2023.01.26-06.09.31:471][664]LogSynthBenchmark: Display:   GPUIndex: 5.7
+[2023.01.26-06.09.31:471][664]LogSynthBenchmark: Display:   CPUIndex: 48.9
+[2023.01.26-06.09.31:471][664]LogSynthBenchmark: Display: 
+[2023.01.26-06.09.31:471][664]LogSynthBenchmark: Display:          ... Total Time: 2.898049 sec
+[2023.01.26-06.09.37:809][729]LogSlate: Window 'Content Browser' being destroyed
+[2023.01.26-06.09.37:926][729]LogSlate: Window 'Content Browser' being destroyed
+[2023.01.26-06.09.41:099][767]LogSlate: Window 'Add Content to the Project' being destroyed
+[2023.01.26-06.09.55:711][980]LogLiveCoding: Display: Starting Live Coding compile.
+[2023.01.26-06.10.05:225][141]LogShaderCompilers: Display: ================================================
+[2023.01.26-06.10.05:225][141]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.01.26-06.10.05:225][141]LogShaderCompilers: Display: Total job queries 5874, among them cache hits 57 (0.97%)
+[2023.01.26-06.10.05:225][141]LogShaderCompilers: Display: Tracking 648 distinct input hashes that result in 378 distinct outputs (58.33%)
+[2023.01.26-06.10.05:225][141]LogShaderCompilers: Display: RAM used: 4.26 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.52%
+[2023.01.26-06.10.05:225][141]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.01.26-06.10.05:226][141]LogShaderCompilers: Display: Shaders Compiled: 548
+[2023.01.26-06.10.05:226][141]LogShaderCompilers: Display: Jobs assigned 552, completed 548 (99.28%)
+[2023.01.26-06.10.05:226][141]LogShaderCompilers: Display: Average time worker was idle: 0.00 s
+[2023.01.26-06.10.05:226][141]LogShaderCompilers: Display: Time job spent in pending queue: average 252.71 s, longest 494.55 s
+[2023.01.26-06.10.05:226][141]LogShaderCompilers: Display: Job execution time: average 3.61 s, max 25.20 s
+[2023.01.26-06.10.05:226][141]LogShaderCompilers: Display: Job life time (pending + execution): average 254.57 s, max 494.57
+[2023.01.26-06.10.05:226][141]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 495.99 s
+[2023.01.26-06.10.05:226][141]LogShaderCompilers: Display: Jobs were issued in 552 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.01.26-06.10.05:227][141]LogShaderCompilers: Display: Average processing rate: 1.10 jobs/sec
+[2023.01.26-06.10.05:227][141]LogShaderCompilers: Display: Total thread time: 1793.81 s
+[2023.01.26-06.10.05:227][141]LogShaderCompilers: Display: Total thread preprocess time: 108.66 s
+[2023.01.26-06.10.05:227][141]LogShaderCompilers: Display: Percentage time preprocessing: 6.06%
+[2023.01.26-06.10.05:227][141]LogShaderCompilers: Display: Effective parallelization: 3.62 (times faster than compiling all shaders on one thread). Compare with number of workers: 4
+[2023.01.26-06.10.05:227][141]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.01.26-06.10.05:227][141]LogShaderCompilers: Display:                         TBasePassPSTLightMapPolicyLQSkylight (compiled    4 times, average 6.94 sec, max 16.62 sec, min 2.20 sec)
+[2023.01.26-06.10.05:227][141]LogShaderCompilers: Display:                                 TBasePassPSTLightMapPolicyHQ (compiled    4 times, average 6.69 sec, max 16.65 sec, min 2.11 sec)
+[2023.01.26-06.10.05:227][141]LogShaderCompilers: Display:          TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQ (compiled    4 times, average 6.39 sec, max 15.35 sec, min 2.18 sec)
+[2023.01.26-06.10.05:228][141]LogShaderCompilers: Display:  TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQSkylight (compiled    4 times, average 5.44 sec, max 12.17 sec, min 2.17 sec)
+[2023.01.26-06.10.05:228][141]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled   17 times, average 4.98 sec, max 16.78 sec, min 1.53 sec)
+[2023.01.26-06.10.05:228][141]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.01.26-06.10.05:228][141]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 8.55% of total time (compiled   39 times, average 3.93 sec, max 22.58 sec, min 1.70 sec)
+[2023.01.26-06.10.05:228][141]LogShaderCompilers: Display:                                             FDebugViewModePS - 8.06% of total time (compiled   42 times, average 3.44 sec, max 18.55 sec, min 1.42 sec)
+[2023.01.26-06.10.05:228][141]LogShaderCompilers: Display:                                             FDebugViewModeVS - 7.81% of total time (compiled   42 times, average 3.34 sec, max 13.26 sec, min 1.75 sec)
+[2023.01.26-06.10.05:228][141]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 7.58% of total time (compiled   38 times, average 3.58 sec, max 13.07 sec, min 2.01 sec)
+[2023.01.26-06.10.05:229][141]LogShaderCompilers: Display:                                                 FLumenCardVS - 7.08% of total time (compiled   39 times, average 3.26 sec, max 22.91 sec, min 1.41 sec)
+[2023.01.26-06.10.05:229][141]LogShaderCompilers: Display: ================================================
+[2023.01.26-06.10.08:282][193]LogLiveCoding: Display:    Creating library C:\Users\Zach\Documents\Unreal Projects\Shotgun\Binaries\Win64\UnrealEditor-Shotgun.patch_1.lib and object C:\Users\Zach\Documents\Unreal Projects\Shotgun\Binaries\Win64\UnrealEditor-Shotgun.patch_1.exp
+[2023.01.26-06.10.09:573][197]LogUObjectHash: Compacting FUObjectHashTables data took   3.36ms
+[2023.01.26-06.10.09:676][198]Display: Reload/Re-instancing Complete: 1 package changed, 1 class unchanged
+[2023.01.26-06.10.09:676][198]LogLiveCoding: Display: Live coding succeeded
+[2023.01.26-06.10.12:432][231]LogEditorClassViewer: Warning: Class /Script/InteractiveToolsFramework.GizmoActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.01.26-06.10.12:435][231]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewGeometryActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.01.26-06.10.12:435][231]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewMeshActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.01.26-06.10.19:113][318]LogUObjectHash: Compacting FUObjectHashTables data took   2.09ms
+[2023.01.26-06.10.21:640][318]LogSlate: Window 'Save Content' being destroyed
+[2023.01.26-06.10.21:887][318]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.01.26-06.10.22:206][318]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Flat" FILE="../../../../../../Users/Zach/Documents/Unreal Projects/Shotgun/Content/Flat.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.01.26-06.10.22:255][318]LogUObjectHash: Compacting FUObjectHashTables data took   2.02ms
+[2023.01.26-06.10.22:655][318]LogSavePackage: Moving output files for package: /Game/Flat
+[2023.01.26-06.10.22:659][318]LogSavePackage: Moving '../../../../../../Users/Zach/Documents/Unreal Projects/Shotgun/Saved/FlatC7021DFB4BB44FAFA8D2AE84EAEBC1D3.tmp' to '../../../../../../Users/Zach/Documents/Unreal Projects/Shotgun/Content/Flat.umap'
+[2023.01.26-06.10.22:760][318]LogFileHelpers: Saving map 'Flat' took 0.557
+[2023.01.26-06.10.22:798][318]LogFileHelpers: InternalPromptForCheckoutAndSave took 911 ms (total: 1.26 sec)
+[2023.01.26-06.10.22:819][318]AssetCheck: New page: Asset Save: Flat
+[2023.01.26-06.10.22:820][318]LogContentValidation: Display: Validating /Script/Engine.World /Game/Flat.Flat
+[2023.01.26-06.10.25:302][355]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.01.26-06.10.25:375][355]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.01.26-06.10.25:376][355]PIE: New page: PIE session: Flat (Jan 25, 2023, 8:10:25 PM)
+[2023.01.26-06.10.25:399][355]LogOnline: OSS: Created online subsystem instance for: NULL
+[2023.01.26-06.10.25:399][355]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2023.01.26-06.10.25:399][355]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Flat
+[2023.01.26-06.10.25:483][355]LogPlayLevel: PIE: StaticDuplicateObject took: (0.083171s)
+[2023.01.26-06.10.25:483][355]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Flat.Flat to /Game/UEDPIE_0_Flat.Flat (0.083384s)
+[2023.01.26-06.10.25:484][355]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.26-06.10.25:486][355]LogAIModule: Creating AISystem for world Flat
+[2023.01.26-06.10.25:490][355]LogPlayLevel: PIE: World Init took: (0.007465s)
+[2023.01.26-06.10.25:544][355]LogUObjectHash: Compacting FUObjectHashTables data took   2.37ms
+[2023.01.26-06.10.25:546][355]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2023.01.26-06.10.25:546][355]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.01.26-06.10.25:546][355]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.01.26-06.10.25:546][355]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.01.26-06.10.25:547][355]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.01.26-06.10.25:547][355]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.01.26-06.10.25:547][355]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.01.26-06.10.25:547][355]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.01.26-06.10.25:547][355]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.01.26-06.10.25:549][355]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.01.26-06.10.25:549][355]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.01.26-06.10.25:549][355]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.01.26-06.10.25:559][355]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.01.26-06.10.25:735][355]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio(SST))
+[2023.01.26-06.10.25:737][355]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.01.26-06.10.25:737][355]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.01.26-06.10.25:737][355]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.01.26-06.10.25:739][355]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=2
+[2023.01.26-06.10.25:740][355]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=2
+[2023.01.26-06.10.25:749][355]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=2
+[2023.01.26-06.10.25:750][355]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=2
+[2023.01.26-06.10.25:750][355]LogInit: FAudioDevice initialized.
+[2023.01.26-06.10.25:750][355]LogAudio: Display: Audio Device (ID: 2) registered with world 'Flat'.
+[2023.01.26-06.10.25:766][355]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2023.01.26-06.10.25:778][355]LogWorld: Bringing World /Game/UEDPIE_0_Flat.Flat up for play (max tick rate 60) at 2023.01.26-01.10.25
+[2023.01.26-06.10.25:779][355]LogWorld: Bringing up level for play took: 0.011837
+[2023.01.26-06.10.25:788][355]LogOnline: OSS: Created online subsystem instance for: :Context_1
+[2023.01.26-06.10.25:897][355]PIE: Server logged in
+[2023.01.26-06.10.25:899][355]PIE: Play in editor total start time 0.535 seconds.
+[2023.01.26-06.10.38:809][587]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.26-06.10.38:809][587]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Flat
+[2023.01.26-06.10.38:810][587]LogWorld: UWorld::CleanupWorld for Flat, bSessionEnded=true, bCleanupResources=true
+[2023.01.26-06.10.38:813][587]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.26-06.10.38:914][587]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.01.26-06.10.38:923][587]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.26-06.10.38:978][587]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.26-06.10.38:983][587]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2023.01.26-06.10.38:994][587]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2023.01.26-06.10.39:031][587]LogUObjectHash: Compacting FUObjectHashTables data took   3.82ms
+[2023.01.26-06.10.39:260][588]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2023.01.26-06.11.01:856][870]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2023.01.26-06.11.27:156][236]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.PlayerStart
+[2023.01.26-06.11.27:157][236]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.PlayerStart
+[2023.01.26-06.11.27:174][236]LogActorFactory: Actor Factory spawned Class /Script/Engine.PlayerStart as actor: PlayerStart /Game/Flat.Flat:PersistentLevel.PlayerStart_0
+[2023.01.26-06.11.27:175][236]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2023.01.26-06.11.27:176][236]LogActorFactory: Actor Factory spawned Class /Script/Engine.PlayerStart as actor: PlayerStart /Game/Flat.Flat:PersistentLevel.PlayerStart_0
+[2023.01.26-06.11.27:177][236]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2023.01.26-06.11.27:300][236]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2023.01.26-06.12.42:203][389]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.01.26-06.12.42:258][389]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.01.26-06.12.42:259][389]PIE: New page: PIE session: Flat (Jan 25, 2023, 8:12:42 PM)
+[2023.01.26-06.12.42:260][389]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Flat
+[2023.01.26-06.12.42:340][389]LogPlayLevel: PIE: StaticDuplicateObject took: (0.079080s)
+[2023.01.26-06.12.42:340][389]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Flat.Flat to /Game/UEDPIE_0_Flat.Flat (0.079397s)
+[2023.01.26-06.12.42:340][389]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.26-06.12.42:342][389]LogAIModule: Creating AISystem for world Flat
+[2023.01.26-06.12.42:343][389]LogPlayLevel: PIE: World Init took: (0.003285s)
+[2023.01.26-06.12.42:428][389]LogUObjectHash: Compacting FUObjectHashTables data took   3.66ms
+[2023.01.26-06.12.42:436][389]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2023.01.26-06.12.42:437][389]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.01.26-06.12.42:437][389]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.01.26-06.12.42:437][389]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.01.26-06.12.42:437][389]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.01.26-06.12.42:437][389]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.01.26-06.12.42:437][389]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.01.26-06.12.42:437][389]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.01.26-06.12.42:437][389]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.01.26-06.12.42:439][389]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.01.26-06.12.42:439][389]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.01.26-06.12.42:439][389]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.01.26-06.12.42:449][389]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.01.26-06.12.42:630][389]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio(SST))
+[2023.01.26-06.12.42:631][389]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.01.26-06.12.42:631][389]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.01.26-06.12.42:631][389]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.01.26-06.12.42:635][389]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2023.01.26-06.12.42:635][389]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2023.01.26-06.12.42:643][389]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2023.01.26-06.12.42:643][389]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2023.01.26-06.12.42:643][389]LogInit: FAudioDevice initialized.
+[2023.01.26-06.12.42:643][389]LogAudio: Display: Audio Device (ID: 3) registered with world 'Flat'.
+[2023.01.26-06.12.42:656][389]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2023.01.26-06.12.42:667][389]LogWorld: Bringing World /Game/UEDPIE_0_Flat.Flat up for play (max tick rate 60) at 2023.01.26-01.12.42
+[2023.01.26-06.12.42:668][389]LogWorld: Bringing up level for play took: 0.011610
+[2023.01.26-06.12.42:677][389]LogOnline: OSS: Created online subsystem instance for: :Context_2
+[2023.01.26-06.12.42:687][389]PIE: Server logged in
+[2023.01.26-06.12.42:690][389]PIE: Play in editor total start time 0.432 seconds.
+[2023.01.26-06.12.54:038][607]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.26-06.12.54:039][607]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Flat
+[2023.01.26-06.12.54:039][607]LogWorld: UWorld::CleanupWorld for Flat, bSessionEnded=true, bCleanupResources=true
+[2023.01.26-06.12.54:041][607]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.26-06.12.54:099][607]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.01.26-06.12.54:110][607]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.26-06.12.54:158][607]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.01.26-06.12.54:159][607]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2023.01.26-06.12.54:166][607]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2023.01.26-06.12.54:187][607]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.26-06.12.54:195][607]LogUObjectHash: Compacting FUObjectHashTables data took   2.81ms
+[2023.01.26-06.12.54:510][608]LogPlayLevel: Display: Destroying online subsystem :Context_2

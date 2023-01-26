@@ -5,7 +5,8 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
-				"C:/Users/Zach/Documents/Unreal Projects/Shotgun/Content/Flat.umap"
+				"C:/Users/Zach/Documents/Unreal Projects/Shotgun/Content/Flat.umap",
+				"C:/Users/Zach/Documents/Unreal Projects/Shotgun/Content/FirstPerson/Input/IMC_Default.uasset"
 			]
 		}
 	]
