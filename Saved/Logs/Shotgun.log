@@ -1558,3 +1558,107 @@ LogConfig: CVar [[framepro.ScopeMinTimeMicroseconds:10]] deferred - dummy variab
 [2023.01.29-20.23.04:766][943]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2023.01.29-20.23.04:775][943]LogUObjectHash: Compacting FUObjectHashTables data took   3.12ms
 [2023.01.29-20.23.04:887][944]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2023.01.29-20.24.07:014][447]LogEditorViewport: Clicking Background
+[2023.01.29-20.24.10:079][538]LogEditorViewport: Clicking Background
+[2023.01.29-20.24.42:659][454]LogShaderCompilers: Display: ================================================
+[2023.01.29-20.24.42:659][454]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.01.29-20.24.42:659][454]LogShaderCompilers: Display: Total job queries 117, among them cache hits 2 (1.71%)
+[2023.01.29-20.24.42:659][454]LogShaderCompilers: Display: Tracking 115 distinct input hashes that result in 94 distinct outputs (81.74%)
+[2023.01.29-20.24.42:659][454]LogShaderCompilers: Display: RAM used: 0.97 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.12%
+[2023.01.29-20.24.42:659][454]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.01.29-20.24.42:659][454]LogShaderCompilers: Display: Shaders Compiled: 0
+[2023.01.29-20.24.42:659][454]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0.00%)
+[2023.01.29-20.24.42:659][454]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2023.01.29-20.24.42:659][454]LogShaderCompilers: Display: ================================================
+[2023.01.29-20.24.45:721][548]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2023.01.29-20.24.45:722][548]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.29-20.25.51:717][260]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonGameMode.BP_FirstPersonGameMode
+[2023.01.29-20.25.51:717][260]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.29-20.26.04:261][438]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2023.01.29-20.26.04:261][438]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.29-20.26.33:814][843]LogAssetEditorSubsystem: Opening Asset editor for InputMappingContext /Game/FirstPerson/Input/IMC_Default.IMC_Default
+[2023.01.29-20.31.12:924][310]LogShaderCompilers: Display: ================================================
+[2023.01.29-20.31.12:924][310]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.01.29-20.31.12:924][310]LogShaderCompilers: Display: Total job queries 128, among them cache hits 3 (2.34%)
+[2023.01.29-20.31.12:924][310]LogShaderCompilers: Display: Tracking 125 distinct input hashes that result in 103 distinct outputs (82.40%)
+[2023.01.29-20.31.12:924][310]LogShaderCompilers: Display: RAM used: 1.03 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.13%
+[2023.01.29-20.31.12:924][310]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.01.29-20.31.12:924][310]LogShaderCompilers: Display: Shaders Compiled: 0
+[2023.01.29-20.31.12:924][310]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0.00%)
+[2023.01.29-20.31.12:924][310]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2023.01.29-20.31.12:924][310]LogShaderCompilers: Display: ================================================
+[2023.01.29-20.33.43:043][304]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FirstPerson/Blueprints/BP_Laser.BP_Laser
+[2023.01.29-20.33.43:044][304]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.29-20.33.48:977][342]LogViewport: Scene viewport resized to 2282x1773, mode Windowed.
+[2023.01.29-20.34.34:758][692]LogUObjectHash: Compacting FUObjectHashTables data took   3.65ms
+[2023.01.29-20.34.34:760][692]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Flat' took 0.107
+[2023.01.29-20.34.34:761][692]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FirstPerson/Blueprints/BP_Laser] ([2] browsable assets)...
+[2023.01.29-20.34.34:761][692]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPerson/Blueprints/BP_Laser]
+[2023.01.29-20.34.34:765][692]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/FirstPerson/Blueprints/BP_Laser_Auto2
+[2023.01.29-20.34.34:765][692]LogSavePackage: Moving '../../../../../../Users/Zach/Documents/Unreal Projects/Shotgun/Saved/BP_Laser_Auto2190F584B407B0AC31B1384A773B57821.tmp' to '../../../../../../Users/Zach/Documents/Unreal Projects/Shotgun/Saved/Autosaves/Game/FirstPerson/Blueprints/BP_Laser_Auto2.uasset'
+[2023.01.29-20.34.34:766][692]LogFileHelpers: Auto-saving content packages took 0.007
+[2023.01.29-20.35.23:768][463]BlueprintLog: New page: Compile BP_Laser
+[2023.01.29-20.35.23:994][463]LogUObjectHash: Compacting FUObjectHashTables data took   4.47ms
+[2023.01.29-20.35.50:023][862]BlueprintLog: New page: Compile BP_Laser
+[2023.01.29-20.35.50:172][862]LogUObjectHash: Compacting FUObjectHashTables data took   4.27ms
+[2023.01.29-20.35.54:051][936]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.01.29-20.35.54:066][936]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.01.29-20.35.54:066][936]PIE: New page: PIE session: Flat (Jan 29, 2023, 8:35:54 AM)
+[2023.01.29-20.35.54:066][936]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Flat
+[2023.01.29-20.35.54:089][936]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021971s)
+[2023.01.29-20.35.54:089][936]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Flat.Flat to /Game/UEDPIE_0_Flat.Flat (0.022029s)
+[2023.01.29-20.35.54:089][936]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.29-20.35.54:090][936]LogAIModule: Creating AISystem for world Flat
+[2023.01.29-20.35.54:090][936]LogPlayLevel: PIE: World Init took: (0.001360s)
+[2023.01.29-20.35.54:198][936]LogUObjectHash: Compacting FUObjectHashTables data took   4.27ms
+[2023.01.29-20.35.54:201][936]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2023.01.29-20.35.54:201][936]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.01.29-20.35.54:201][936]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.01.29-20.35.54:201][936]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.01.29-20.35.54:202][936]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.01.29-20.35.54:202][936]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.01.29-20.35.54:202][936]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.01.29-20.35.54:202][936]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.01.29-20.35.54:202][936]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.01.29-20.35.54:203][936]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.01.29-20.35.54:204][936]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.01.29-20.35.54:204][936]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.01.29-20.35.54:208][936]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.01.29-20.35.54:246][936]LogAudioMixer: Display: Using Audio Hardware Device LG TV (Intel(R) Display Audio)
+[2023.01.29-20.35.54:246][936]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.01.29-20.35.54:246][936]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.01.29-20.35.54:246][936]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.01.29-20.35.54:249][936]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=5
+[2023.01.29-20.35.54:249][936]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=5
+[2023.01.29-20.35.54:252][936]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=5
+[2023.01.29-20.35.54:252][936]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=5
+[2023.01.29-20.35.54:252][936]LogInit: FAudioDevice initialized.
+[2023.01.29-20.35.54:252][936]LogAudio: Display: Audio Device (ID: 5) registered with world 'Flat'.
+[2023.01.29-20.35.54:260][936]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2023.01.29-20.35.54:264][936]LogWorld: Bringing World /Game/UEDPIE_0_Flat.Flat up for play (max tick rate 60) at 2023.01.29-14.35.54
+[2023.01.29-20.35.54:264][936]LogWorld: Bringing up level for play took: 0.004103
+[2023.01.29-20.35.54:268][936]LogOnline: OSS: Created online subsystem instance for: :Context_15
+[2023.01.29-20.35.54:271][936]PIE: Server logged in
+[2023.01.29-20.35.54:272][936]PIE: Play in editor total start time 0.206 seconds.
+[2023.01.29-20.35.58:756][ 38]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] SetAltFire
+[2023.01.29-20.36.13:652][381]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.29-20.36.13:652][381]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Flat
+[2023.01.29-20.36.13:652][381]LogWorld: UWorld::CleanupWorld for Flat, bSessionEnded=true, bCleanupResources=true
+[2023.01.29-20.36.13:653][381]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.29-20.36.13:704][381]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.01.29-20.36.13:716][381]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.29-20.36.13:834][381]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.01.29-20.36.13:835][381]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2023.01.29-20.36.13:838][381]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2023.01.29-20.36.13:846][381]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.29-20.36.13:853][381]LogUObjectHash: Compacting FUObjectHashTables data took   3.79ms
+[2023.01.29-20.36.14:021][382]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2023.01.29-20.36.32:602][570]LogUObjectHash: Compacting FUObjectHashTables data took   3.51ms
+[2023.01.29-20.36.34:727][570]LogSlate: Window 'Save Content' being destroyed
+[2023.01.29-20.36.34:739][570]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.01.29-20.36.34:894][570]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPerson/Blueprints/BP_Laser" FILE="../../../../../../Users/Zach/Documents/Unreal Projects/Shotgun/Content/FirstPerson/Blueprints/BP_Laser.uasset" SILENT=true
+[2023.01.29-20.36.34:899][570]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_Laser
+[2023.01.29-20.36.34:900][570]LogSavePackage: Moving '../../../../../../Users/Zach/Documents/Unreal Projects/Shotgun/Saved/BP_Laser8DB699B54A91906F4A08C3AAEBB86303.tmp' to '../../../../../../Users/Zach/Documents/Unreal Projects/Shotgun/Content/FirstPerson/Blueprints/BP_Laser.uasset'
+[2023.01.29-20.36.34:999][570]LogFileHelpers: InternalPromptForCheckoutAndSave took 260 ms (total: 1.73 sec)
+[2023.01.29-20.36.35:011][570]AssetCheck: New page: Asset Save: BP_Laser
+[2023.01.29-20.36.35:011][570]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_Laser.BP_Laser
