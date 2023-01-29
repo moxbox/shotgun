@@ -13,6 +13,16 @@ UCPPWeaponComponent::UCPPWeaponComponent()
     // ...
 }
 
+FVector UCPPWeaponComponent::test()
+{
+    return FVector(FMath::RandRange(0.0, 1.0), FMath::RandRange(0.0, 1.0), FMath::RandRange(0.0, 1.0));
+}
+
+FVector UCPPWeaponComponent::GetRandomSpreadVector(FVector AimVector)
+{
+    return FVector();
+}
+
 
 // Called when the game starts
 void UCPPWeaponComponent::BeginPlay()

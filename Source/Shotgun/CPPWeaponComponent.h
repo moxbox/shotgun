@@ -13,15 +13,14 @@ class SHOTGUN_API UCPPWeaponComponent : public UActorComponent
     GENERATED_BODY()
 
 public:
-
-    UPROPERTY(EditAnywhere)
-        bool altFireMode;
-
-    UPROPERTY(EditDefaultsOnly)
-        USkeletalMeshComponent* weaponMesh;
-
     // Sets default values for this component's properties
     UCPPWeaponComponent();
+
+    UFUNCTION(BlueprintCallable, Category = "Weapon")
+    FVector test();
+
+    UFUNCTION(BlueprintCallable, Category = "Weapon")
+    FVector GetRandomSpreadVector(FVector AimVector);
 
 protected:
     // Called when the game starts
