@@ -20,7 +20,7 @@ public:
     FVector test();
 
     UFUNCTION(BlueprintCallable, Category = "Weapon")
-    FVector GetRandomSpreadVector(FVector AimVector);
+    FVector GetRandomSpreadVector(FVector AimVector, double MaxSpreadAngleDegrees);
 
 protected:
     // Called when the game starts

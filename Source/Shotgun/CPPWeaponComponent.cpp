@@ -18,9 +18,50 @@ FVector UCPPWeaponComponent::test()
     return FVector(FMath::RandRange(0.0, 1.0), FMath::RandRange(0.0, 1.0), FMath::RandRange(0.0, 1.0));
 }
 
-FVector UCPPWeaponComponent::GetRandomSpreadVector(FVector AimVector)
+FVector UCPPWeaponComponent::GetRandomSpreadVector(FVector AimVector, double MaxSpreadAngleDegrees)
 {
-    return FVector();
+    // Assume AimVector is normalized
+    AimVector.Normalize();
+
+    // Find vector perpendicular to AimVector to use as rotation axis
+    // To do this, we cross AimVector with the basis vector that has
+    // the lowest magnitude in AimVector. This is because if we crossed
+    // AimVector with itself, it would be zero
+
+    // NOTE: IRL I'd simply use FindBestAxisVectors and pick one of those :P
+    FVector orthogonal;
+    int minIndex = 0;
+    double curMin = DOUBLE_BIG_NUMBER;
+    for (int i = 0; i < 3; ++i) {
+        if (FMath::Abs(AimVector[i]) < curMin) {
+            minIndex = i;
+            curMin = AimVector[i];
+        }
+    }
+
+    if (minIndex == 0) {
+        orthogonal = AimVector.Cross(FVector::UnitX());
+    }
+    else if (minIndex == 1) {
+        orthogonal = AimVector.Cross(FVector::UnitY());
+    }
+    else if (minIndex == 2) {
+        orthogonal = AimVector.Cross(FVector::UnitZ());
+    }
+
+    // Calculate a random spread angle 
+    double maxSpreadAngleRads = FMath::DegreesToRadians(MaxSpreadAngleDegrees);
+    double spreadAngle = FMath::Atan(FMath::Sqrt(FMath::RandRange(0.0, 1.0)) * FMath::Tan(maxSpreadAngleRads));
+
+    // Rotate away from AimVector by random spread angle
+    FVector adjustedVector = AimVector.RotateAngleAxisRad(spreadAngle, orthogonal);
+
+    // Rotate our new vector around AimVector by a random value
+    double rotateAngle = FMath::RandRange(-1.0 * PI, 1.0 * PI);
+    FVector outVector = adjustedVector.RotateAngleAxisRad(rotateAngle, AimVector);
+    outVector.Normalize();
+
+    return outVector;
 }
 
 
