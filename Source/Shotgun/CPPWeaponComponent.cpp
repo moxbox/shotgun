@@ -21,7 +21,6 @@ FVector UCPPWeaponComponent::test()
 FVector UCPPWeaponComponent::GetRandomSpreadVector(FVector AimVector, double MaxSpreadAngleDegrees)
 {
     // Assume AimVector is normalized
-    AimVector.Normalize();
 
     // Find vector perpendicular to AimVector to use as rotation axis
     // To do this, we cross AimVector with the basis vector that has
@@ -29,7 +28,9 @@ FVector UCPPWeaponComponent::GetRandomSpreadVector(FVector AimVector, double Max
     // AimVector with itself, it would be zero
 
     // NOTE: IRL I'd simply use FindBestAxisVectors and pick one of those :P
-    FVector orthogonal;
+    FVector orthogonal, ortho2;
+    //AimVector.FindBestAxisVectors(orthogonal, ortho2);
+
     int minIndex = 0;
     double curMin = DOUBLE_BIG_NUMBER;
     for (int i = 0; i < 3; ++i) {
