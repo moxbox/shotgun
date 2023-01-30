@@ -4539,3 +4539,456 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.01.30-01.15.19:805][471]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2023.01.30-01.15.19:814][471]LogUObjectHash: Compacting FUObjectHashTables data took   2.82ms
 [2023.01.30-01.15.19:948][472]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2023.01.30-01.43.59:978][828]LogSlate: Took 0.002413 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2023.01.30-01.44.05:544][856]LogSlate: Window 'Change Variable Type' being destroyed
+[2023.01.30-01.44.14:542][922]LogSlate: Window 'Find in Blueprints' being destroyed
+[2023.01.30-01.44.14:695][922]LogSlate: Window 'Find in Blueprints' being destroyed
+[2023.01.30-01.55.47:076][250]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.01.30-01.55.47:525][250]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_Weapon_Component
+[2023.01.30-01.55.47:527][250]LogSavePackage: Moving '../../../../../../Users/Zach/Documents/Unreal Projects/Shotgun/Saved/BP_Weapon_ComponentDE1C7FAB4DFF418F9A78D19ECE8C2F87.tmp' to '../../../../../../Users/Zach/Documents/Unreal Projects/Shotgun/Content/FirstPerson/Blueprints/BP_Weapon_Component.uasset'
+[2023.01.30-01.55.47:548][250]LogFileHelpers: InternalPromptForCheckoutAndSave took 472 ms (total: 1.79 sec)
+[2023.01.30-01.55.47:561][250]AssetCheck: New page: Asset Save: BP_Weapon_Component
+[2023.01.30-01.55.47:561][250]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_Weapon_Component.BP_Weapon_Component
+[2023.01.30-01.59.45:047][319]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.01.30-01.59.45:420][319]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_Weapon_Component
+[2023.01.30-01.59.45:422][319]LogSavePackage: Moving '../../../../../../Users/Zach/Documents/Unreal Projects/Shotgun/Saved/BP_Weapon_ComponentD30DC15F412F275BC46026A3A9EBBBC7.tmp' to '../../../../../../Users/Zach/Documents/Unreal Projects/Shotgun/Content/FirstPerson/Blueprints/BP_Weapon_Component.uasset'
+[2023.01.30-01.59.45:443][319]LogFileHelpers: InternalPromptForCheckoutAndSave took 395 ms (total: 2.19 sec)
+[2023.01.30-01.59.45:455][319]AssetCheck: New page: Asset Save: BP_Weapon_Component
+[2023.01.30-01.59.45:456][319]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_Weapon_Component.BP_Weapon_Component
+[2023.01.30-02.01.54:038][911]LogDerivedDataCache: C:/Users/Zach/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:15.282 and deleted 0 files with total size 0 MiB. Scanned 8134 files in 7765 folders with total size 102 MiB.
+[2023.01.30-02.02.09:473][ 42]LogUObjectHash: Compacting FUObjectHashTables data took   4.46ms
+[2023.01.30-02.02.09:479][ 42]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Flat' took 0.105
+[2023.01.30-02.02.09:482][ 42]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FirstPerson/Blueprints/BP_Weapon_Component] ([2] browsable assets)...
+[2023.01.30-02.02.09:482][ 42]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPerson/Blueprints/BP_Weapon_Component]
+[2023.01.30-02.02.09:571][ 42]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/FirstPerson/Blueprints/BP_Weapon_Component_Auto1
+[2023.01.30-02.02.09:573][ 42]LogSavePackage: Moving '../../../../../../Users/Zach/Documents/Unreal Projects/Shotgun/Saved/BP_Weapon_Component_Auto12E85A02B483F43FD17EF2CA8833D8788.tmp' to '../../../../../../Users/Zach/Documents/Unreal Projects/Shotgun/Saved/Autosaves/Game/FirstPerson/Blueprints/BP_Weapon_Component_Auto1.uasset'
+[2023.01.30-02.02.09:577][ 42]LogFileHelpers: Auto-saving content packages took 0.097
+[2023.01.30-02.05.29:421][824]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.01.30-02.05.29:922][824]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_Weapon_Component
+[2023.01.30-02.05.29:923][824]LogSavePackage: Moving '../../../../../../Users/Zach/Documents/Unreal Projects/Shotgun/Saved/BP_Weapon_ComponentB769DB394095BA195FF0958162025F7E.tmp' to '../../../../../../Users/Zach/Documents/Unreal Projects/Shotgun/Content/FirstPerson/Blueprints/BP_Weapon_Component.uasset'
+[2023.01.30-02.05.29:943][824]LogFileHelpers: InternalPromptForCheckoutAndSave took 522 ms (total: 2.71 sec)
+[2023.01.30-02.05.29:954][824]AssetCheck: New page: Asset Save: BP_Weapon_Component
+[2023.01.30-02.05.29:954][824]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_Weapon_Component.BP_Weapon_Component
+[2023.01.30-02.12.25:455][430]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.01.30-02.12.26:126][430]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_Weapon_Component
+[2023.01.30-02.12.26:129][430]LogSavePackage: Moving '../../../../../../Users/Zach/Documents/Unreal Projects/Shotgun/Saved/BP_Weapon_ComponentFCBA6814478F8CDB2CDD02B8B5CD5013.tmp' to '../../../../../../Users/Zach/Documents/Unreal Projects/Shotgun/Content/FirstPerson/Blueprints/BP_Weapon_Component.uasset'
+[2023.01.30-02.12.26:166][430]LogFileHelpers: InternalPromptForCheckoutAndSave took 711 ms (total: 3.42 sec)
+[2023.01.30-02.12.26:189][430]AssetCheck: New page: Asset Save: BP_Weapon_Component
+[2023.01.30-02.12.26:190][430]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_Weapon_Component.BP_Weapon_Component
+[2023.01.30-02.13.11:626][993]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.01.30-02.13.12:105][993]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_Weapon_Component
+[2023.01.30-02.13.12:107][993]LogSavePackage: Moving '../../../../../../Users/Zach/Documents/Unreal Projects/Shotgun/Saved/BP_Weapon_Component75EAB4EB45747F49D079E3A920D342F9.tmp' to '../../../../../../Users/Zach/Documents/Unreal Projects/Shotgun/Content/FirstPerson/Blueprints/BP_Weapon_Component.uasset'
+[2023.01.30-02.13.12:127][993]LogFileHelpers: InternalPromptForCheckoutAndSave took 501 ms (total: 3.92 sec)
+[2023.01.30-02.13.12:142][993]AssetCheck: New page: Asset Save: BP_Weapon_Component
+[2023.01.30-02.13.12:143][993]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_Weapon_Component.BP_Weapon_Component
+[2023.01.30-02.21.41:779][382]LogUObjectHash: Compacting FUObjectHashTables data took   2.40ms
+[2023.01.30-02.21.41:780][382]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Flat' took 0.068
+[2023.01.30-02.21.41:781][382]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FirstPerson/Blueprints/BP_Weapon_Component] ([2] browsable assets)...
+[2023.01.30-02.21.41:782][382]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPerson/Blueprints/BP_Weapon_Component]
+[2023.01.30-02.21.41:844][382]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/FirstPerson/Blueprints/BP_Weapon_Component_Auto2
+[2023.01.30-02.21.41:846][382]LogSavePackage: Moving '../../../../../../Users/Zach/Documents/Unreal Projects/Shotgun/Saved/BP_Weapon_Component_Auto246689DAF423BAE247542B4ABF4D53CE0.tmp' to '../../../../../../Users/Zach/Documents/Unreal Projects/Shotgun/Saved/Autosaves/Game/FirstPerson/Blueprints/BP_Weapon_Component_Auto2.uasset'
+[2023.01.30-02.21.41:848][382]LogFileHelpers: Auto-saving content packages took 0.067
+[2023.01.30-02.31.32:077][563]LogEditorTransaction: Undo Delete current selection
+[2023.01.30-02.33.25:214][561]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.01.30-02.33.25:737][561]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_Weapon_Component
+[2023.01.30-02.33.25:739][561]LogSavePackage: Moving '../../../../../../Users/Zach/Documents/Unreal Projects/Shotgun/Saved/BP_Weapon_Component4751FB35407B7D0C6C0E23A2BFCA7AC2.tmp' to '../../../../../../Users/Zach/Documents/Unreal Projects/Shotgun/Content/FirstPerson/Blueprints/BP_Weapon_Component.uasset'
+[2023.01.30-02.33.25:764][561]LogFileHelpers: InternalPromptForCheckoutAndSave took 549 ms (total: 4.47 sec)
+[2023.01.30-02.33.25:780][561]AssetCheck: New page: Asset Save: BP_Weapon_Component
+[2023.01.30-02.33.25:780][561]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_Weapon_Component.BP_Weapon_Component
+[2023.01.30-02.35.15:737][492]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.01.30-02.35.16:229][492]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_Weapon_Component
+[2023.01.30-02.35.16:231][492]LogSavePackage: Moving '../../../../../../Users/Zach/Documents/Unreal Projects/Shotgun/Saved/BP_Weapon_Component6287E7EB4994E1FBADB45C97EA8E66D1.tmp' to '../../../../../../Users/Zach/Documents/Unreal Projects/Shotgun/Content/FirstPerson/Blueprints/BP_Weapon_Component.uasset'
+[2023.01.30-02.35.16:252][492]LogFileHelpers: InternalPromptForCheckoutAndSave took 514 ms (total: 4.99 sec)
+[2023.01.30-02.35.16:265][492]AssetCheck: New page: Asset Save: BP_Weapon_Component
+[2023.01.30-02.35.16:266][492]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_Weapon_Component.BP_Weapon_Component
+[2023.01.30-02.35.27:133][593]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.01.30-02.35.27:608][593]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_Weapon_Component
+[2023.01.30-02.35.27:611][593]LogSavePackage: Moving '../../../../../../Users/Zach/Documents/Unreal Projects/Shotgun/Saved/BP_Weapon_Component55E5052849BDB1899F32E0A994EBB8BE.tmp' to '../../../../../../Users/Zach/Documents/Unreal Projects/Shotgun/Content/FirstPerson/Blueprints/BP_Weapon_Component.uasset'
+[2023.01.30-02.35.27:636][593]LogFileHelpers: InternalPromptForCheckoutAndSave took 502 ms (total: 5.49 sec)
+[2023.01.30-02.35.27:652][593]AssetCheck: New page: Asset Save: BP_Weapon_Component
+[2023.01.30-02.35.27:652][593]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_Weapon_Component.BP_Weapon_Component
+[2023.01.30-02.35.29:944][615]BlueprintLog: New page: Compile BP_Weapon_Component
+[2023.01.30-02.35.30:002][615]LogBlueprint: Warning: [AssetLog] C:\Users\Zach\Documents\Unreal Projects\Shotgun\Content\FirstPerson\Blueprints\BP_Weapon_Component.uasset: [Compiler] Can't parse default value 'False' for  Alt Fire Mode . Property: altFireMode.
+[2023.01.30-02.35.30:111][615]LogUObjectHash: Compacting FUObjectHashTables data took   4.20ms
+[2023.01.30-02.35.54:163][813]BlueprintLog: New page: Compile BP_Weapon_Component
+[2023.01.30-02.35.54:307][813]LogUObjectHash: Compacting FUObjectHashTables data took   3.53ms
+[2023.01.30-02.36.21:967][ 41]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.01.30-02.36.22:430][ 41]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_Weapon_Component
+[2023.01.30-02.36.22:433][ 41]LogSavePackage: Moving '../../../../../../Users/Zach/Documents/Unreal Projects/Shotgun/Saved/BP_Weapon_ComponentE8FB6CDB407196BD8C5BCFB1E137BE65.tmp' to '../../../../../../Users/Zach/Documents/Unreal Projects/Shotgun/Content/FirstPerson/Blueprints/BP_Weapon_Component.uasset'
+[2023.01.30-02.36.22:455][ 41]LogFileHelpers: InternalPromptForCheckoutAndSave took 487 ms (total: 5.98 sec)
+[2023.01.30-02.36.22:471][ 41]AssetCheck: New page: Asset Save: BP_Weapon_Component
+[2023.01.30-02.36.22:471][ 41]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_Weapon_Component.BP_Weapon_Component
+[2023.01.30-02.36.22:982][ 47]BlueprintLog: New page: Compile BP_Weapon_Component
+[2023.01.30-02.36.23:126][ 47]LogUObjectHash: Compacting FUObjectHashTables data took   3.74ms
+[2023.01.30-02.36.27:790][ 99]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.01.30-02.36.27:807][ 99]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.01.30-02.36.27:808][ 99]PIE: New page: PIE session: Flat (Jan 29, 2023, 2:36:27 PM)
+[2023.01.30-02.36.27:808][ 99]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Flat
+[2023.01.30-02.36.27:843][ 99]LogPlayLevel: PIE: StaticDuplicateObject took: (0.035333s)
+[2023.01.30-02.36.27:843][ 99]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Flat.Flat to /Game/UEDPIE_0_Flat.Flat (0.035682s)
+[2023.01.30-02.36.27:844][ 99]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.30-02.36.27:845][ 99]LogAIModule: Creating AISystem for world Flat
+[2023.01.30-02.36.27:846][ 99]LogPlayLevel: PIE: World Init took: (0.002978s)
+[2023.01.30-02.36.27:926][ 99]LogUObjectHash: Compacting FUObjectHashTables data took   3.08ms
+[2023.01.30-02.36.27:932][ 99]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2023.01.30-02.36.27:932][ 99]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.01.30-02.36.27:932][ 99]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.01.30-02.36.27:933][ 99]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.01.30-02.36.27:933][ 99]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.01.30-02.36.27:933][ 99]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.01.30-02.36.27:933][ 99]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.01.30-02.36.27:933][ 99]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.01.30-02.36.27:933][ 99]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.01.30-02.36.27:934][ 99]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.01.30-02.36.27:935][ 99]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.01.30-02.36.27:935][ 99]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.01.30-02.36.27:940][ 99]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.01.30-02.36.27:978][ 99]LogAudioMixer: Display: Using Audio Hardware Device LG TV (Intel(R) Display Audio)
+[2023.01.30-02.36.27:979][ 99]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.01.30-02.36.27:979][ 99]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.01.30-02.36.27:980][ 99]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.01.30-02.36.27:981][ 99]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=11
+[2023.01.30-02.36.27:983][ 99]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=11
+[2023.01.30-02.36.27:987][ 99]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=11
+[2023.01.30-02.36.27:988][ 99]LogInit: FAudioDevice initialized.
+[2023.01.30-02.36.27:988][ 99]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=11
+[2023.01.30-02.36.27:988][ 99]LogAudio: Display: Audio Device (ID: 11) registered with world 'Flat'.
+[2023.01.30-02.36.27:998][ 99]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2023.01.30-02.36.28:003][ 99]LogWorld: Bringing World /Game/UEDPIE_0_Flat.Flat up for play (max tick rate 60) at 2023.01.29-20.36.28
+[2023.01.30-02.36.28:004][ 99]LogWorld: Bringing up level for play took: 0.005245
+[2023.01.30-02.36.28:009][ 99]LogOnline: OSS: Created online subsystem instance for: :Context_16
+[2023.01.30-02.36.28:014][ 99]PIE: Server logged in
+[2023.01.30-02.36.28:015][ 99]PIE: Play in editor total start time 0.209 seconds.
+[2023.01.30-02.36.37:746][236]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Hello
+[2023.01.30-02.36.45:395][344]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Hello
+[2023.01.30-02.37.02:327][583]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Hello
+[2023.01.30-02.37.12:064][720]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.30-02.37.12:064][720]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Flat
+[2023.01.30-02.37.12:064][720]LogWorld: UWorld::CleanupWorld for Flat, bSessionEnded=true, bCleanupResources=true
+[2023.01.30-02.37.12:068][720]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.30-02.37.12:187][720]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.01.30-02.37.12:196][720]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.30-02.37.12:281][720]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.01.30-02.37.12:283][720]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2023.01.30-02.37.12:289][720]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2023.01.30-02.37.12:302][720]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.30-02.37.12:311][720]LogUObjectHash: Compacting FUObjectHashTables data took   3.89ms
+[2023.01.30-02.37.12:441][721]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2023.01.30-02.38.22:867][363]BlueprintLog: New page: Compile BP_Weapon_Component
+[2023.01.30-02.38.23:039][363]LogUObjectHash: Compacting FUObjectHashTables data took   3.78ms
+[2023.01.30-02.38.38:252][557]LogSlate: Vector cache flush requested. Reason: Large atlases out of space; 2/1 Textures; frames since last flush: 16421219353694081260
+[2023.01.30-02.38.38:252][557]LogSlate: Warning: Setting the threshold to trigger a flush to 2 non-atlased textures as there is a lot of font data being cached.
+[2023.01.30-02.38.47:313][674]LogUObjectHash: Compacting FUObjectHashTables data took   4.09ms
+[2023.01.30-02.38.47:319][674]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Flat' took 0.095
+[2023.01.30-02.38.47:320][674]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/FirstPerson/Blueprints/BP_Pickup_Rifle] ([2] browsable assets)...
+[2023.01.30-02.38.47:381][674]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPerson/Blueprints/BP_Pickup_Rifle.BP_Pickup_Rifle]
+[2023.01.30-02.38.47:381][674]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPerson/Blueprints/BP_Pickup_Rifle]
+[2023.01.30-02.38.47:403][674]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/FirstPerson/Blueprints/BP_Pickup_Rifle_Auto3
+[2023.01.30-02.38.47:403][674]LogSavePackage: Moving '../../../../../../Users/Zach/Documents/Unreal Projects/Shotgun/Saved/BP_Pickup_Rifle_Auto35D12149F4DAF525D2FD0139150BF8067.tmp' to '../../../../../../Users/Zach/Documents/Unreal Projects/Shotgun/Saved/Autosaves/Game/FirstPerson/Blueprints/BP_Pickup_Rifle_Auto3.uasset'
+[2023.01.30-02.38.47:406][674]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FirstPerson/Blueprints/BP_Weapon_Component] ([2] browsable assets)...
+[2023.01.30-02.38.47:407][674]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPerson/Blueprints/BP_Weapon_Component]
+[2023.01.30-02.38.47:521][674]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/FirstPerson/Blueprints/BP_Weapon_Component_Auto3
+[2023.01.30-02.38.47:524][674]LogSavePackage: Moving '../../../../../../Users/Zach/Documents/Unreal Projects/Shotgun/Saved/BP_Weapon_Component_Auto35BF4C6504A38D2A10D25959F33BAD0FE.tmp' to '../../../../../../Users/Zach/Documents/Unreal Projects/Shotgun/Saved/Autosaves/Game/FirstPerson/Blueprints/BP_Weapon_Component_Auto3.uasset'
+[2023.01.30-02.38.47:527][674]LogFileHelpers: Auto-saving content packages took 0.208
+[2023.01.30-02.39.11:531][ 12]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.01.30-02.39.12:161][ 12]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_Weapon_Component
+[2023.01.30-02.39.12:165][ 12]LogSavePackage: Moving '../../../../../../Users/Zach/Documents/Unreal Projects/Shotgun/Saved/BP_Weapon_ComponentDB9F0C2E487DF55E6F7999827E28BDEC.tmp' to '../../../../../../Users/Zach/Documents/Unreal Projects/Shotgun/Content/FirstPerson/Blueprints/BP_Weapon_Component.uasset'
+[2023.01.30-02.39.12:188][ 12]LogFileHelpers: InternalPromptForCheckoutAndSave took 657 ms (total: 6.64 sec)
+[2023.01.30-02.39.12:206][ 12]AssetCheck: New page: Asset Save: BP_Weapon_Component
+[2023.01.30-02.39.12:207][ 12]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_Weapon_Component.BP_Weapon_Component
+[2023.01.30-02.39.33:564][238]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.01.30-02.39.33:603][238]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.01.30-02.39.33:604][238]PIE: New page: PIE session: Flat (Jan 29, 2023, 2:39:33 PM)
+[2023.01.30-02.39.33:604][238]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Flat
+[2023.01.30-02.39.33:662][238]LogPlayLevel: PIE: StaticDuplicateObject took: (0.057192s)
+[2023.01.30-02.39.33:662][238]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Flat.Flat to /Game/UEDPIE_0_Flat.Flat (0.057324s)
+[2023.01.30-02.39.33:663][238]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.30-02.39.33:665][238]LogAIModule: Creating AISystem for world Flat
+[2023.01.30-02.39.33:667][238]LogPlayLevel: PIE: World Init took: (0.004692s)
+[2023.01.30-02.39.33:794][238]LogUObjectHash: Compacting FUObjectHashTables data took   3.93ms
+[2023.01.30-02.39.33:798][238]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2023.01.30-02.39.33:799][238]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.01.30-02.39.33:799][238]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.01.30-02.39.33:799][238]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.01.30-02.39.33:800][238]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.01.30-02.39.33:800][238]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.01.30-02.39.33:800][238]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.01.30-02.39.33:801][238]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.01.30-02.39.33:801][238]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.01.30-02.39.33:802][238]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.01.30-02.39.33:802][238]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.01.30-02.39.33:803][238]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.01.30-02.39.33:810][238]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.01.30-02.39.33:888][238]LogAudioMixer: Display: Using Audio Hardware Device LG TV (Intel(R) Display Audio)
+[2023.01.30-02.39.33:889][238]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.01.30-02.39.33:889][238]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.01.30-02.39.33:890][238]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.01.30-02.39.33:893][238]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=12
+[2023.01.30-02.39.33:895][238]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=12
+[2023.01.30-02.39.33:904][238]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=12
+[2023.01.30-02.39.33:904][238]LogInit: FAudioDevice initialized.
+[2023.01.30-02.39.33:904][238]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=12
+[2023.01.30-02.39.33:904][238]LogAudio: Display: Audio Device (ID: 12) registered with world 'Flat'.
+[2023.01.30-02.39.33:917][238]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2023.01.30-02.39.33:933][238]LogWorld: Bringing World /Game/UEDPIE_0_Flat.Flat up for play (max tick rate 60) at 2023.01.29-20.39.33
+[2023.01.30-02.39.33:935][238]LogWorld: Bringing up level for play took: 0.017044
+[2023.01.30-02.39.33:944][238]LogOnline: OSS: Created online subsystem instance for: :Context_17
+[2023.01.30-02.39.33:953][238]PIE: Server logged in
+[2023.01.30-02.39.33:955][238]PIE: Play in editor total start time 0.352 seconds.
+[2023.01.30-02.39.39:337][399]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Hello
+[2023.01.30-02.40.02:726][100]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Hello
+[2023.01.30-02.40.10:940][346]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Hello
+[2023.01.30-02.40.13:144][411]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.30-02.40.13:144][411]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Flat
+[2023.01.30-02.40.13:145][411]LogWorld: UWorld::CleanupWorld for Flat, bSessionEnded=true, bCleanupResources=true
+[2023.01.30-02.40.13:147][411]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.30-02.40.13:179][411]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.01.30-02.40.13:190][411]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.30-02.40.13:294][411]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.30-02.40.13:300][411]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2023.01.30-02.40.13:305][411]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2023.01.30-02.40.13:330][411]LogUObjectHash: Compacting FUObjectHashTables data took   3.47ms
+[2023.01.30-02.40.13:484][412]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2023.01.30-02.40.32:443][855]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.01.30-02.40.32:818][855]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_Weapon_Component
+[2023.01.30-02.40.32:820][855]LogSavePackage: Moving '../../../../../../Users/Zach/Documents/Unreal Projects/Shotgun/Saved/BP_Weapon_Component75EBFBB84B3085E4C8EAFABE753479AD.tmp' to '../../../../../../Users/Zach/Documents/Unreal Projects/Shotgun/Content/FirstPerson/Blueprints/BP_Weapon_Component.uasset'
+[2023.01.30-02.40.32:845][855]LogFileHelpers: InternalPromptForCheckoutAndSave took 403 ms (total: 7.04 sec)
+[2023.01.30-02.40.32:857][855]AssetCheck: New page: Asset Save: BP_Weapon_Component
+[2023.01.30-02.40.32:857][855]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_Weapon_Component.BP_Weapon_Component
+[2023.01.30-02.40.34:565][893]BlueprintLog: New page: Compile BP_Weapon_Component
+[2023.01.30-02.40.34:770][893]LogUObjectHash: Compacting FUObjectHashTables data took   5.05ms
+[2023.01.30-02.40.40:096][ 44]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.01.30-02.40.40:130][ 44]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.01.30-02.40.40:130][ 44]PIE: New page: PIE session: Flat (Jan 29, 2023, 2:40:40 PM)
+[2023.01.30-02.40.40:130][ 44]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Flat
+[2023.01.30-02.40.40:156][ 44]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026108s)
+[2023.01.30-02.40.40:156][ 44]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Flat.Flat to /Game/UEDPIE_0_Flat.Flat (0.026177s)
+[2023.01.30-02.40.40:157][ 44]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.30-02.40.40:158][ 44]LogAIModule: Creating AISystem for world Flat
+[2023.01.30-02.40.40:159][ 44]LogPlayLevel: PIE: World Init took: (0.002645s)
+[2023.01.30-02.40.40:242][ 44]LogUObjectHash: Compacting FUObjectHashTables data took   3.69ms
+[2023.01.30-02.40.40:246][ 44]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2023.01.30-02.40.40:247][ 44]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.01.30-02.40.40:247][ 44]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.01.30-02.40.40:247][ 44]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.01.30-02.40.40:247][ 44]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.01.30-02.40.40:248][ 44]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.01.30-02.40.40:248][ 44]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.01.30-02.40.40:248][ 44]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.01.30-02.40.40:248][ 44]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.01.30-02.40.40:250][ 44]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.01.30-02.40.40:251][ 44]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.01.30-02.40.40:251][ 44]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.01.30-02.40.40:258][ 44]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.01.30-02.40.40:313][ 44]LogAudioMixer: Display: Using Audio Hardware Device LG TV (Intel(R) Display Audio)
+[2023.01.30-02.40.40:315][ 44]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.01.30-02.40.40:316][ 44]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.01.30-02.40.40:316][ 44]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.01.30-02.40.40:318][ 44]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=13
+[2023.01.30-02.40.40:320][ 44]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=13
+[2023.01.30-02.40.40:326][ 44]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=13
+[2023.01.30-02.40.40:326][ 44]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=13
+[2023.01.30-02.40.40:327][ 44]LogInit: FAudioDevice initialized.
+[2023.01.30-02.40.40:327][ 44]LogAudio: Display: Audio Device (ID: 13) registered with world 'Flat'.
+[2023.01.30-02.40.40:336][ 44]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2023.01.30-02.40.40:341][ 44]LogWorld: Bringing World /Game/UEDPIE_0_Flat.Flat up for play (max tick rate 60) at 2023.01.29-20.40.40
+[2023.01.30-02.40.40:342][ 44]LogWorld: Bringing up level for play took: 0.005501
+[2023.01.30-02.40.40:349][ 44]LogOnline: OSS: Created online subsystem instance for: :Context_18
+[2023.01.30-02.40.40:355][ 44]PIE: Server logged in
+[2023.01.30-02.40.40:357][ 44]PIE: Play in editor total start time 0.228 seconds.
+[2023.01.30-02.40.44:200][159]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Hello
+[2023.01.30-02.40.45:468][197]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Hello
+[2023.01.30-02.40.52:343][403]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Hello
+[2023.01.30-02.41.09:866][928]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.09:867][928]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.09:867][928]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.09:868][928]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.10:006][932]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.10:006][932]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.10:007][932]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.10:007][932]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.10:007][932]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.10:008][932]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.10:008][932]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.10:009][932]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.10:367][943]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.10:368][943]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.10:568][949]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.10:739][954]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.10:740][954]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.10:932][960]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.11:101][965]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.11:101][965]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.11:101][965]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.11:102][965]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.11:102][965]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.11:102][965]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.11:103][965]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.11:103][965]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.11:103][965]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.11:104][965]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.11:104][965]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.11:333][972]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.11:333][972]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.11:333][972]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.11:334][972]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.11:334][972]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.11:334][972]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.11:335][972]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.11:335][972]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.11:335][972]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.11:336][972]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.11:336][972]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.13:800][ 46]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.13:801][ 46]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.13:801][ 46]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.13:801][ 46]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.13:802][ 46]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.13:802][ 46]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.13:802][ 46]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.13:802][ 46]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.13:803][ 46]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.13:803][ 46]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.13:803][ 46]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.14:033][ 53]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.14:034][ 53]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.14:034][ 53]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.14:034][ 53]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.14:035][ 53]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.14:035][ 53]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.14:035][ 53]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.14:036][ 53]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.14:036][ 53]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.14:036][ 53]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.14:037][ 53]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.15:702][103]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.15:873][108]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.17:282][149]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.17:282][149]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.17:283][149]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.17:284][149]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.17:797][163]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.17:945][167]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.18:463][181]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.18:790][190]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.18:930][194]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.19:707][216]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.19:870][220]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.20:054][225]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.20:054][225]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.20:055][225]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.20:510][240]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.20:675][245]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.20:676][245]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.20:845][249]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.20:846][249]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.20:847][249]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.20:847][249]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.20:847][249]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.22:079][284]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.22:080][284]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.22:252][289]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.22:466][295]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.22:467][295]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.22:467][295]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.22:468][295]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.22:640][300]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.22:816][305]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.22:817][305]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.23:408][322]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.23:409][322]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.23:410][322]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.23:410][322]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.23:625][328]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.23:625][328]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.23:626][328]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.23:626][328]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.23:626][328]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.23:627][328]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.23:627][328]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.23:804][333]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.23:805][333]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.23:806][333]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.23:974][338]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.23:974][338]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.23:975][338]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.23:975][338]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.23:976][338]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.23:976][338]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.23:977][338]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.24:150][343]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.24:151][343]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.24:152][343]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.24:153][343]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.24:153][343]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.24:325][348]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.24:326][348]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.24:326][348]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.24:326][348]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.24:326][348]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.24:327][348]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.24:328][348]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.24:472][352]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.24:472][352]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.24:473][352]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.24:473][352]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.24:474][352]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.24:686][358]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.24:686][358]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.24:687][358]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.24:687][358]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.24:688][358]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.24:688][358]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.24:929][365]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.24:930][365]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.24:930][365]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.24:930][365]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.24:931][365]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.24:931][365]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.24:931][365]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.24:932][365]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.24:932][365]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.25:140][371]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.25:140][371]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.25:141][371]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.25:141][371]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.25:142][371]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.25:142][371]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.25:143][371]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.25:143][371]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.25:350][377]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.25:351][377]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.25:351][377]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.25:351][377]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.25:352][377]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.25:352][377]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.25:353][377]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.25:353][377]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.25:538][382]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.25:539][382]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.25:539][382]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.25:541][382]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.25:541][382]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.25:541][382]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.25:542][382]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.25:746][388]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.26:059][397]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.26:060][397]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.26:061][397]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.26:237][402]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.26:415][407]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.26:592][412]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.32:395][583]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.32:397][583]LogBlueprintUserMessages: [NODE_AddBP_Weapon_Component-0] Bullet missed
+[2023.01.30-02.41.39:724][793]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.30-02.41.39:724][793]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Flat
+[2023.01.30-02.41.39:725][793]LogWorld: UWorld::CleanupWorld for Flat, bSessionEnded=true, bCleanupResources=true
+[2023.01.30-02.41.39:727][793]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.30-02.41.39:763][793]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.01.30-02.41.39:780][793]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.30-02.41.39:868][793]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.01.30-02.41.39:869][793]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2023.01.30-02.41.39:874][793]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2023.01.30-02.41.39:886][793]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.30-02.41.39:896][793]LogUObjectHash: Compacting FUObjectHashTables data took   4.20ms
+[2023.01.30-02.41.40:051][794]LogPlayLevel: Display: Destroying online subsystem :Context_18
