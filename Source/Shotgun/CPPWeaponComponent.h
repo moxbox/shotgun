@@ -25,6 +25,9 @@ public:
     UFUNCTION(BlueprintCallable, Category = "Weapon")
     FVector GetPathedSpreadVector(FVector AimVector, double MaxSpreadAngleDegrees);
 
+    UFUNCTION(BlueprintCallable, Category = "Weapon")
+    FVector GetImageSpreadVector(FVector AimVector, double MaxSpreadAngleDegrees);
+
 protected:
     // Called when the game starts
     virtual void BeginPlay() override;
@@ -40,4 +43,7 @@ private:
     };
 
     TArray<pt> pathPoints;
+    TBitArray<FDefaultBitArrayAllocator> imagePoints;
+    uint16 imageWidth;
+    uint16 imageHeight;
 };
