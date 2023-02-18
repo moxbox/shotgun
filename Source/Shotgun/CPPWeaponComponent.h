@@ -22,6 +22,9 @@ public:
     UFUNCTION(BlueprintCallable, Category = "Weapon")
     FVector GetRandomSpreadVector(FVector AimVector, double MaxSpreadAngleDegrees);
 
+    UFUNCTION(BlueprintCallable, Category = "Weapon")
+    FVector GetPathedSpreadVector(FVector AimVector, double MaxSpreadAngleDegrees);
+
 protected:
     // Called when the game starts
     virtual void BeginPlay() override;
@@ -30,5 +33,11 @@ public:
     // Called every frame
     virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 
+private:
+    struct pt {
+        uint16 x;
+        uint16 y;
+    };
 
+    TArray<pt> pathPoints;
 };
