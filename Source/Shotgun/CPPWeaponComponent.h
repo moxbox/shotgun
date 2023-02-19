@@ -28,6 +28,10 @@ public:
     UFUNCTION(BlueprintCallable, Category = "Weapon")
     FVector GetImageSpreadVector(FVector AimVector, double MaxSpreadAngleDegrees);
 
+    UFUNCTION(BlueprintCallable, Category = "Weapon")
+    void StartBadApple();
+
+
 protected:
     // Called when the game starts
     virtual void BeginPlay() override;
@@ -47,6 +51,7 @@ private:
     TArray<pt> pathPoints;
     TArray<TBitArray<FDefaultBitArrayAllocator>> badAppleImages;
     //TBitArray<FDefaultBitArrayAllocator> imagePoints;
+    FDateTime start;
     uint16 imageWidth;
     uint16 imageHeight;
     uint32 counter = 60;

@@ -189,10 +189,14 @@ void UCPPWeaponComponent::TickComponent(float DeltaTime, ELevelTick TickType, FA
 
 uint32_t UCPPWeaponComponent::GetCurrentFrameIndex()
 {
-    static FDateTime start = FDateTime::Now();
     auto elapsed = FDateTime::Now() - start;
     const int frameTimeMs = 33;
     int framesElapsed = elapsed.GetTotalMilliseconds() / frameTimeMs;
     return framesElapsed % (badAppleImages.Num() - 1);
+}
+
+void UCPPWeaponComponent::StartBadApple()
+{
+    start = FDateTime::Now();
 }
 
