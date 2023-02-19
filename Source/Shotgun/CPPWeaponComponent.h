@@ -55,4 +55,5 @@ private:
     uint16 imageWidth;
     uint16 imageHeight;
     uint32 counter = 60;
+    uint16 pointMax;
 };

@@ -21,6 +21,18 @@ UCPPWeaponComponent::UCPPWeaponComponent()
             auto ptr = bytes.GetData();
             const pt* pPts = reinterpret_cast<pt*>(ptr);
             pathPoints = TArray<pt>(pPts, size);
+
+            pointMax = 1;
+            for (int i = 0; i < size; i++) {
+                UE_LOG(LogTemp, Display, TEXT("%d, %d"), pathPoints[i].x, pathPoints[i].y);
+                if (pathPoints[i].x > pointMax) {
+                    pointMax = pathPoints[i].x;
+                }
+                
+                if (pathPoints[i].y > pointMax) {
+                    pointMax = pathPoints[i].y;
+                }
+            }
         }
     }
 
@@ -47,7 +59,6 @@ UCPPWeaponComponent::UCPPWeaponComponent()
             auto* pBitArray = badAppleImages.Last().GetData();
             if (badAppleImages.Last().GetAllocatedSize() == bytes.Num()) {
                 FMemory::Memcpy(pBitArray, ptr, bytes.Num());
-                UE_LOG(LogTemp, Display, TEXT("Image Loaded"));
                 count++;
             }
             else {
@@ -91,29 +102,32 @@ FVector UCPPWeaponComponent::GetRandomSpreadVector(FVector AimVector, double Max
 
 FVector UCPPWeaponComponent::GetPathedSpreadVector(FVector AimVector, double MaxSpreadAngleDegrees)
 {
-    FVector ortho1, ortho2;
-    AimVector.FindBestAxisVectors(ortho1, ortho2);
-
     // pick a random point in our path
     int index = FMath::RandRange(0, pathPoints.Num() - 1);
     auto pt = pathPoints[index];
 
-    // Normalize it
-    const double maxY = 14336.0;
-    double x = (static_cast<double>(pt.x) / maxY) - 0.5;
-    double y = (static_cast<double>(pt.y) / maxY) - 0.5;
+    // Convert index to x,y (image starts bl, need to convert so coords are relative to center)
+    double x = (imageWidth / 2.0) - pt.x - 4.0;
+    double y = pt.y + 4.0 - (imageHeight / 2.0);
 
-    // Calculate a random spread angle 
+    // Calculate the spread angle 
     double maxSpreadAngleRads = FMath::DegreesToRadians(MaxSpreadAngleDegrees);
-    double spreadAngleX = -1.0 * FMath::Atan(x * FMath::Tan(maxSpreadAngleRads));
-    double spreadAngleY = -1.0 * FMath::Atan(y * FMath::Tan(maxSpreadAngleRads));
+
+    double maxCornerDistInPlane = FMath::Sqrt(pow(imageWidth / 2.0, 2.0) + pow(imageHeight / 2.0, 2.0));
+
+    double spreadAngleX = -1.0 * FMath::Atan(x * FMath::Tan(maxSpreadAngleRads) / maxCornerDistInPlane);
+    double spreadAngleY = -1.0 * FMath::Atan(y * FMath::Tan(maxSpreadAngleRads) / maxCornerDistInPlane);
 
     // Rotate away from AimVector by "random" spread angles
+    FVector ortho1, ortho2;
+    AimVector.FindBestAxisVectors(ortho1, ortho2);
+
     FVector adjustedVector = AimVector.RotateAngleAxisRad(spreadAngleX, ortho1);
     adjustedVector = adjustedVector.RotateAngleAxisRad(spreadAngleY, ortho2);
     adjustedVector.Normalize();
 
     return adjustedVector;
+
 }
 
 FVector UCPPWeaponComponent::GetImageSpreadVector(FVector AimVector, double MaxSpreadAngleDegrees)
@@ -125,8 +139,6 @@ FVector UCPPWeaponComponent::GetImageSpreadVector(FVector AimVector, double MaxS
     if (!badAppleImages.IsValidIndex(badAppleIndex)) {
         return AimVector;
     }
-
-    UE_LOG(LogTemp, Display, TEXT("Current Index: %d"), badAppleIndex);
 
     int index = -1;
     bool found = false;
@@ -189,6 +201,8 @@ void UCPPWeaponComponent::TickComponent(float DeltaTime, ELevelTick TickType, FA
 
 uint32_t UCPPWeaponComponent::GetCurrentFrameIndex()
 {
+    return 258;
+
     auto elapsed = FDateTime::Now() - start;
     const int frameTimeMs = 33;
     int framesElapsed = elapsed.GetTotalMilliseconds() / frameTimeMs;
