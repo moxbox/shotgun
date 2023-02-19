@@ -48,7 +48,7 @@ private:
         uint16 y;
     };
 
-    TArray<pt> pathPoints;
+    TArray<TArray<pt>> badApplePaths;
     TArray<TBitArray<FDefaultBitArrayAllocator>> badAppleImages;
     //TBitArray<FDefaultBitArrayAllocator> imagePoints;
     FDateTime start;

@@ -10,9 +10,17 @@ UCPPWeaponComponent::UCPPWeaponComponent()
     // Set this component to be initialized when the game starts, and to be ticked every frame.  You can turn these features
     // off to improve performance if you don't need them.
     PrimaryComponentTick.bCanEverTick = true;
-    {
+
+    const int numBadAppleImages = 6562;
+    int count = 0;
+    FString projectDir = FPaths::ProjectDir();
+    start = FDateTime::Now();
+
+    // First load the edge paths
+    for (int i = 1; i < numBadAppleImages; ++i) {
+        FString path = FString::Printf(TEXT("%sContent/BadApple/Paths/bad_apple_%03d_Path.bin"), *projectDir, i);
+
         TArray<uint8> bytes;
-        auto path = FPaths::ProjectDir() + "Content/pathPoints.bin";
         bool loaded = FFileHelper::LoadFileToArray(bytes, *path);
 
         if (loaded) {
@@ -20,27 +28,15 @@ UCPPWeaponComponent::UCPPWeaponComponent()
             int size = bytes.Num() / 4; // each point is four bytes (2 each x,y)
             auto ptr = bytes.GetData();
             const pt* pPts = reinterpret_cast<pt*>(ptr);
-            pathPoints = TArray<pt>(pPts, size);
-
-            pointMax = 1;
-            for (int i = 0; i < size; i++) {
-                UE_LOG(LogTemp, Display, TEXT("%d, %d"), pathPoints[i].x, pathPoints[i].y);
-                if (pathPoints[i].x > pointMax) {
-                    pointMax = pathPoints[i].x;
-                }
-                
-                if (pathPoints[i].y > pointMax) {
-                    pointMax = pathPoints[i].y;
-                }
-            }
+            badApplePaths.Add(TArray<pt>(pPts, size));
+        }
+        else {
+            UE_LOG(LogTemp, Display, TEXT("Path %d not loaded"), i);
         }
     }
 
-    const int numBadAppleImages = 6562;
-    int count = 0;
-    FString projectDir = FPaths::ProjectDir();
-    
-    for (int i = 0; i < numBadAppleImages; ++i) {
+    // Then load the binary images
+    for (int i = 1; i < numBadAppleImages; ++i) {
         FString path = FString::Printf(TEXT("%sContent/BadApple/bad_apple_%03d.bin"), *projectDir, i);
 
         TArray<uint8> bytes;
@@ -102,9 +98,15 @@ FVector UCPPWeaponComponent::GetRandomSpreadVector(FVector AimVector, double Max
 
 FVector UCPPWeaponComponent::GetPathedSpreadVector(FVector AimVector, double MaxSpreadAngleDegrees)
 {
-    // pick a random point in our path
-    int index = FMath::RandRange(0, pathPoints.Num() - 1);
-    auto pt = pathPoints[index];
+    // If we don't have any path to use, return
+    uint32_t badAppleIndex = GetCurrentFrameIndex();
+    if (!badApplePaths.IsValidIndex(badAppleIndex) || badApplePaths[badAppleIndex].IsEmpty()) {
+        return AimVector;
+    }
+
+    // Pick a random point in our path
+    int index = FMath::RandRange(0, badApplePaths[badAppleIndex].Num() - 1);
+    auto pt = badApplePaths[badAppleIndex][index];
 
     // Convert index to x,y (image starts bl, need to convert so coords are relative to center)
     double x = (imageWidth / 2.0) - pt.x - 4.0;
@@ -150,8 +152,6 @@ FVector UCPPWeaponComponent::GetImageSpreadVector(FVector AimVector, double MaxS
             found = true;
             break;
         }
-
-        //UE_LOG(LogTemp, Display, TEXT("Bright Area, trying again"));
     }
     if (!found) {
         return AimVector;
@@ -201,12 +201,10 @@ void UCPPWeaponComponent::TickComponent(float DeltaTime, ELevelTick TickType, FA
 
 uint32_t UCPPWeaponComponent::GetCurrentFrameIndex()
 {
-    return 258;
-
     auto elapsed = FDateTime::Now() - start;
-    const int frameTimeMs = 33;
-    int framesElapsed = elapsed.GetTotalMilliseconds() / frameTimeMs;
-    return framesElapsed % (badAppleImages.Num() - 1);
+    const double frameTimeMs = 1000.0 / 30.0;
+    double framesElapsed = elapsed.GetTotalMilliseconds() / frameTimeMs;
+    return FMath::RoundToInt32(framesElapsed) % (badAppleImages.Num() - 1);
 }
 
 void UCPPWeaponComponent::StartBadApple()
