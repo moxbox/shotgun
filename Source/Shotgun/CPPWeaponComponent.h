@@ -36,6 +36,8 @@ public:
     // Called every frame
     virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 
+    uint32_t GetCurrentFrameIndex();
+
 private:
     struct pt {
         uint16 x;
@@ -43,7 +45,9 @@ private:
     };
 
     TArray<pt> pathPoints;
-    TBitArray<FDefaultBitArrayAllocator> imagePoints;
+    TArray<TBitArray<FDefaultBitArrayAllocator>> badAppleImages;
+    //TBitArray<FDefaultBitArrayAllocator> imagePoints;
     uint16 imageWidth;
     uint16 imageHeight;
+    uint32 counter = 60;
 };

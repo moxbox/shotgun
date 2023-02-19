@@ -23,31 +23,43 @@ UCPPWeaponComponent::UCPPWeaponComponent()
             pathPoints = TArray<pt>(pPts, size);
         }
     }
-    {
+
+    const int numBadAppleImages = 6562;
+    int count = 0;
+    FString projectDir = FPaths::ProjectDir();
+    
+    for (int i = 0; i < numBadAppleImages; ++i) {
+        FString path = FString::Printf(TEXT("%sContent/BadApple/bad_apple_%03d.bin"), *projectDir, i);
+
         TArray<uint8> bytes;
-        auto path = FPaths::ProjectDir() + "Content/image.bin";
         bool loaded = FFileHelper::LoadFileToArray(bytes, *path);
 
         if (loaded) {
             // populate class variable
             int numBits = bytes.Num() * 8; // each point is one bit
-            imageHeight = 540;
+            imageHeight = 536;
             imageWidth = 720;
             if (numBits != imageHeight * imageWidth) {
                 UE_LOG(LogTemp, Display, TEXT("Unexpected Input Size"));
             }
             auto* ptr = bytes.GetData();
-            imagePoints = TBitArray<FDefaultBitArrayAllocator>(false, numBits);
-            auto* pBitArray = imagePoints.GetData();
-            if (imagePoints.GetAllocatedSize() == bytes.Num()) {
+            badAppleImages.Add(TBitArray<FDefaultBitArrayAllocator>(false, numBits));
+            auto* pBitArray = badAppleImages.Last().GetData();
+            if (badAppleImages.Last().GetAllocatedSize() == bytes.Num()) {
                 FMemory::Memcpy(pBitArray, ptr, bytes.Num());
                 UE_LOG(LogTemp, Display, TEXT("Image Loaded"));
+                count++;
             }
             else {
-                UE_LOG(LogTemp, Display, TEXT("Image NOT Loaded"));
+                UE_LOG(LogTemp, Display, TEXT("Image %d not loaded"), i);
             }
         }
+        else {
+            UE_LOG(LogTemp, Display, TEXT("Image %d not loaded"), i);
+        }
     }
+
+    UE_LOG(LogTemp, Display, TEXT("%d out of %d images loaded"), count, numBadAppleImages);
 }
 
 FVector UCPPWeaponComponent::test()
@@ -106,23 +118,28 @@ FVector UCPPWeaponComponent::GetPathedSpreadVector(FVector AimVector, double Max
 
 FVector UCPPWeaponComponent::GetImageSpreadVector(FVector AimVector, double MaxSpreadAngleDegrees)
 {
-    FVector ortho1, ortho2;
-    AimVector.FindBestAxisVectors(ortho1, ortho2);
-
     // pick a random point in our image
     const int maxTries = 1000;
+    
+    uint32_t badAppleIndex = GetCurrentFrameIndex();
+    if (!badAppleImages.IsValidIndex(badAppleIndex)) {
+        return AimVector;
+    }
+
+    UE_LOG(LogTemp, Display, TEXT("Current Index: %d"), badAppleIndex);
+
     int index = -1;
     bool found = false;
     for (int i = 0; i < maxTries; ++i) {
         index = FMath::RandRange(0, (imageWidth * imageHeight) - 1);
 
         // Check if found index is dark (binary 0)
-        if (!imagePoints[index]) {
+        if (badAppleImages[badAppleIndex].IsValidIndex(index) && !badAppleImages[badAppleIndex][index]) {
             found = true;
             break;
         }
 
-        UE_LOG(LogTemp, Display, TEXT("Bright Area, trying again"));
+        //UE_LOG(LogTemp, Display, TEXT("Bright Area, trying again"));
     }
     if (!found) {
         return AimVector;
@@ -141,6 +158,9 @@ FVector UCPPWeaponComponent::GetImageSpreadVector(FVector AimVector, double MaxS
     double spreadAngleY = -1.0 * FMath::Atan(y * FMath::Tan(maxSpreadAngleRads) / maxCornerDistInPlane);
 
     // Rotate away from AimVector by "random" spread angles
+    FVector ortho1, ortho2;
+    AimVector.FindBestAxisVectors(ortho1, ortho2);
+
     FVector adjustedVector = AimVector.RotateAngleAxisRad(spreadAngleX, ortho1);
     adjustedVector = adjustedVector.RotateAngleAxisRad(spreadAngleY, ortho2);
     adjustedVector.Normalize();
@@ -165,5 +185,14 @@ void UCPPWeaponComponent::TickComponent(float DeltaTime, ELevelTick TickType, FA
     Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 
     // ...
+}
+
+uint32_t UCPPWeaponComponent::GetCurrentFrameIndex()
+{
+    static FDateTime start = FDateTime::Now();
+    auto elapsed = FDateTime::Now() - start;
+    const int frameTimeMs = 33;
+    int framesElapsed = elapsed.GetTotalMilliseconds() / frameTimeMs;
+    return framesElapsed % (badAppleImages.Num() - 1);
 }
 
