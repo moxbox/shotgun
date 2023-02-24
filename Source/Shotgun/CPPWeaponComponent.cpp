@@ -96,10 +96,10 @@ FVector UCPPWeaponComponent::GetRandomSpreadVector(FVector AimVector, double Max
     return outVector;
 }
 
-FVector UCPPWeaponComponent::GetPathedSpreadVector(FVector AimVector, double MaxSpreadAngleDegrees)
+FVector UCPPWeaponComponent::GetPathedSpreadVector(FVector AimVector, double MaxSpreadAngleDegrees, int badAppleIndex)
 {
     // If we don't have any path to use, return
-    uint32_t badAppleIndex = GetCurrentFrameIndex();
+    //uint32_t badAppleIndex = GetCurrentFrameIndex();
     if (!badApplePaths.IsValidIndex(badAppleIndex) || badApplePaths[badAppleIndex].IsEmpty()) {
         return AimVector;
     }
@@ -132,12 +132,12 @@ FVector UCPPWeaponComponent::GetPathedSpreadVector(FVector AimVector, double Max
 
 }
 
-FVector UCPPWeaponComponent::GetImageSpreadVector(FVector AimVector, double MaxSpreadAngleDegrees)
+FVector UCPPWeaponComponent::GetImageSpreadVector(FVector AimVector, double MaxSpreadAngleDegrees, int badAppleIndex)
 {
     // pick a random point in our image
     const int maxTries = 1000;
     
-    uint32_t badAppleIndex = GetCurrentFrameIndex();
+    //uint32_t badAppleIndex = GetCurrentFrameIndex();
     if (!badAppleImages.IsValidIndex(badAppleIndex)) {
         return AimVector;
     }
@@ -199,7 +199,7 @@ void UCPPWeaponComponent::TickComponent(float DeltaTime, ELevelTick TickType, FA
     // ...
 }
 
-uint32_t UCPPWeaponComponent::GetCurrentFrameIndex()
+int UCPPWeaponComponent::GetCurrentFrameIndex()
 {
     auto elapsed = FDateTime::Now() - start;
     const double frameTimeMs = 1000.0 / 30.0;

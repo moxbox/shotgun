@@ -23,14 +23,16 @@ public:
     FVector GetRandomSpreadVector(FVector AimVector, double MaxSpreadAngleDegrees);
 
     UFUNCTION(BlueprintCallable, Category = "Weapon")
-    FVector GetPathedSpreadVector(FVector AimVector, double MaxSpreadAngleDegrees);
+    FVector GetPathedSpreadVector(FVector AimVector, double MaxSpreadAngleDegrees, int badAppleIndex);
 
     UFUNCTION(BlueprintCallable, Category = "Weapon")
-    FVector GetImageSpreadVector(FVector AimVector, double MaxSpreadAngleDegrees);
+    FVector GetImageSpreadVector(FVector AimVector, double MaxSpreadAngleDegrees, int badAppleIndex);
 
     UFUNCTION(BlueprintCallable, Category = "Weapon")
     void StartBadApple();
 
+    UFUNCTION(BlueprintCallable, Category = "Weapon")
+    int GetCurrentFrameIndex();
 
 protected:
     // Called when the game starts
@@ -40,7 +42,6 @@ public:
     // Called every frame
     virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 
-    uint32_t GetCurrentFrameIndex();
 
 private:
     struct pt {
